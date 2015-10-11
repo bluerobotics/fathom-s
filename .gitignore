@@ -34,3 +34,6 @@ eagle.epf
 *.info
 
 *.eps
+
+# Mac files
+.DS_Store
