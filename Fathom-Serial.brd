@@ -354,17 +354,17 @@ COLOR:</text>
 <wire x1="26.51125" y1="43.18" x2="26.51125" y2="40.9575" width="0.127" layer="51"/>
 <text x="33.49625" y="44.29125" size="0.6096" layer="51" ratio="12" rot="SR180" align="center">V
 SENSE</text>
-<text x="30.48" y="44.29125" size="0.8128" layer="51" ratio="12" rot="SR180" align="center">GND</text>
-<text x="27.78125" y="44.29125" size="0.8128" layer="51" ratio="12" rot="SR180" align="center">GND</text>
-<text x="19.20875" y="42.06875" size="0.8128" layer="51" ratio="12" rot="SR180" align="center">VIDEO</text>
+<text x="30.48" y="44.29125" size="0.889" layer="51" ratio="12" rot="SR180" align="center">GND</text>
+<text x="27.78125" y="44.29125" size="0.889" layer="51" ratio="12" rot="SR180" align="center">GND</text>
+<text x="19.20875" y="42.06875" size="0.889" layer="51" ratio="12" rot="SR180" align="center">VIDEO</text>
 <text x="19.3675" y="44.29125" size="1.016" layer="51" ratio="12" rot="SR180" align="center">NC</text>
 <text x="22.5425" y="44.29125" size="1.016" layer="51" ratio="12" rot="SR180" align="center">NC</text>
 <text x="25.0825" y="44.29125" size="1.016" layer="51" ratio="12" rot="SR180" align="center">NC</text>
 <text x="22.5425" y="42.06875" size="1.016" layer="51" ratio="12" rot="SR180" align="center">RX</text>
 <text x="25.0825" y="42.06875" size="1.016" layer="51" ratio="12" rot="SR180" align="center">TX</text>
-<text x="27.78125" y="42.06875" size="0.8128" layer="51" ratio="12" rot="SR180" align="center">GND</text>
+<text x="27.78125" y="42.06875" size="0.889" layer="51" ratio="12" rot="SR180" align="center">GND</text>
 <text x="30.48" y="42.06875" size="1.016" layer="51" ratio="12" rot="SR180" align="center">5V</text>
-<text x="33.49625" y="42.06875" size="0.8128" layer="51" ratio="12" distance="20" rot="SR180" align="center">12V</text>
+<text x="33.49625" y="42.06875" size="1.016" layer="51" ratio="12" distance="20" rot="SR180" align="center">12V</text>
 <text x="4.92125" y="37.1475" size="1.016" layer="51" ratio="12" distance="20" rot="R90" align="center">RCA
 CAMERA</text>
 <text x="12.54125" y="30.1625" size="1.016" layer="51" ratio="12" distance="20" rot="R90" align="center">CAMERA</text>
