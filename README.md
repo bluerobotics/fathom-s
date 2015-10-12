@@ -2,6 +2,8 @@
 
 The Fathom Tether Boards are part of Blue Robotics' *Fathom Tether*. These boards provide interfaces and functionality for the communication methods used with the tether. With the Fathom tether, it is quick and easy to get up and running and interface with your ROV or other application.
 
+The schematic and board layout are designed in EagleCAD.
+
 #Fathom Serial Hardware
 
 ##Description
@@ -12,12 +14,9 @@ The Fathom Serial Hardware is designed to be used with tether cables that have f
 
 ##Features 
 
-###Interfaces
 * Low Latency Analog Video through NTSC or PAL (Up to 2000 ft, 600m)
 * Full-duplex RS-485 serial connection with TTL and USB connections (up to 250 Kbps, 4000 ft, 1200m)
 * Power switch that uses a 3-50V input signal to connect batteries and provide up to 40A continuous
-
-###Hardware
 * Onboard 5V and 12V (camera) regulated supplies
 * Jumpers to enable/disable configuration options
 	* Power-on through tether / power always on when batteries connected
