@@ -22,6 +22,7 @@ The Fathom Serial Hardware is designed to be used with tether cables that have f
 	* Power-on through tether / power always on when batteries connected
 	* Power board from battery / power board from alternate input
 * 0.1" I/O header for ribbon cable to ROV controller
+* Current and voltage sense outputs
 
 ##Configuration
 
