@@ -78,7 +78,13 @@
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="113" name="IDFDebug" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="FRNTMAAT1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="FRNTMAAT2" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
@@ -87,6 +93,7 @@
 <layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
@@ -122,11 +129,20 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
+<layer number="255" name="Accent" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
@@ -1163,6 +1179,35 @@ It has reduced top mask to make it harder to put the component on the wrong side
 <text x="0.0635" y="-0.4445" size="0.254" layer="51" rot="R40">PASTE</text>
 <rectangle x1="-0.2794" y1="-1.016" x2="1.4224" y2="0.9906" layer="31"/>
 </package>
+<package name="PAD-JUMPER-2-NC_BY_PASTE_YES_SILK">
+<wire x1="0.8" y1="-1" x2="-0.8" y2="-1" width="0.2032" layer="21"/>
+<wire x1="0.8" y1="1" x2="1" y2="0.7" width="0.2032" layer="21" curve="-90.076445"/>
+<wire x1="-1" y1="0.7" x2="-0.8" y2="1" width="0.2032" layer="21" curve="-90.03821"/>
+<wire x1="-1" y1="-0.7" x2="-0.8" y2="-1" width="0.2032" layer="21" curve="90.03821"/>
+<wire x1="0.8" y1="-1" x2="1" y2="-0.7" width="0.2032" layer="21" curve="90.03821"/>
+<wire x1="-0.8" y1="1" x2="0.8" y2="1" width="0.2032" layer="21"/>
+<smd name="1" x="-0.4009" y="0" dx="0.635" dy="1.27" layer="1" rot="R180" cream="no"/>
+<smd name="2" x="0.4127" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<text x="-0.9525" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.9525" y="-1.651" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.016" y1="-1.016" x2="1.016" y2="1.016" layer="31"/>
+</package>
+<package name="PAD-JUMPER-2-NC_BY_PASTE_YES_SILK_FULL_BOX">
+<description>Small solder jumper with big paste layer so it will short during reflow.</description>
+<wire x1="0.8" y1="-1" x2="-0.8" y2="-1" width="0.1524" layer="21"/>
+<wire x1="0.8" y1="1" x2="1.1" y2="0.75" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.1" y1="0.75" x2="-0.8" y2="1" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.1" y1="-0.75" x2="-0.8" y2="-1" width="0.1524" layer="21" curve="90.114706"/>
+<wire x1="0.8" y1="-1" x2="1.1" y2="-0.75" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.1" y1="-0.75" x2="1.1" y2="0.75" width="0.1524" layer="21"/>
+<wire x1="-1.1" y1="-0.75" x2="-1.1" y2="0.75" width="0.1524" layer="21"/>
+<wire x1="-0.8" y1="1" x2="0.8" y2="1" width="0.1524" layer="21"/>
+<smd name="1" x="-0.4119" y="0" dx="0.635" dy="1.27" layer="1"/>
+<smd name="2" x="0.4119" y="0" dx="0.635" dy="1.27" layer="1"/>
+<text x="-0.9498" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.9498" y="-1.651" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.2192" y1="-1.143" x2="1.2192" y2="1.143" layer="31"/>
+</package>
 </packages>
 <symbols>
 <symbol name="RESISTOR">
@@ -1224,6 +1269,17 @@ It has reduced top mask to make it harder to put the component on the wrong side
 <vertex x="1.524" y="-1.524"/>
 <vertex x="1.524" y="0.762"/>
 </polygon>
+</symbol>
+<symbol name="PAD-JUMPER-2-NC_BY_PASTE">
+<wire x1="0.381" y1="0.635" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<circle x="0" y="0" radius="1.93440625" width="0" layer="95"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1685,6 +1741,31 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 </device>
 </devices>
 </deviceset>
+<deviceset name="JUMPER-PAD-2-NC_BY_PASTE" prefix="SJ">
+<gates>
+<gate name="G$1" symbol="PAD-JUMPER-2-NC_BY_PASTE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PAD-JUMPER-2-NC_BY_PASTE_YES_SILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="FULL-BOX-SILK" package="PAD-JUMPER-2-NC_BY_PASTE_YES_SILK_FULL_BOX">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="SparkFun-Aesthetics">
@@ -1751,49 +1832,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;&lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="RCA">
-<wire x1="-4" y1="5" x2="-4" y2="-5" width="0.2032" layer="51"/>
-<wire x1="-4" y1="-5" x2="5.8" y2="-5" width="0.2032" layer="51"/>
-<wire x1="5.8" y1="-5" x2="5.8" y2="5" width="0.2032" layer="51"/>
-<wire x1="5.8" y1="5" x2="-4" y2="5" width="0.2032" layer="51"/>
-<wire x1="-4" y1="4" x2="-13.4" y2="4" width="0.2032" layer="51"/>
-<wire x1="-13.4" y1="4" x2="-13.4" y2="-4" width="0.2032" layer="51"/>
-<wire x1="-13.4" y1="-4" x2="-4" y2="-4" width="0.2032" layer="51"/>
-<wire x1="-2" y1="5" x2="2" y2="5" width="0.2032" layer="21"/>
-<wire x1="5.8" y1="5" x2="5.8" y2="-5" width="0.2032" layer="21"/>
-<wire x1="-2" y1="-5" x2="2" y2="-5" width="0.2032" layer="21"/>
-<wire x1="-4" y1="3" x2="-4" y2="-3" width="0.2032" layer="21"/>
-<pad name="SHELL" x="0" y="0" drill="2.3"/>
-<pad name="PIN" x="3.7" y="3.7" drill="2.3"/>
-<pad name="SWITCH" x="3.7" y="-3.7" drill="2.3"/>
-<hole x="-3.1" y="4.25" drill="2.1"/>
-<hole x="-3.1" y="-4.25" drill="2.1"/>
-</package>
-<package name="RCA_LOCK">
-<wire x1="-4" y1="5" x2="-4" y2="-5" width="0.2032" layer="51"/>
-<wire x1="-4" y1="-5" x2="5.8" y2="-5" width="0.2032" layer="51"/>
-<wire x1="5.8" y1="-5" x2="5.8" y2="5" width="0.2032" layer="51"/>
-<wire x1="5.8" y1="5" x2="-4" y2="5" width="0.2032" layer="51"/>
-<wire x1="-4" y1="4" x2="-13.4" y2="4" width="0.2032" layer="51"/>
-<wire x1="-13.4" y1="4" x2="-13.4" y2="-4" width="0.2032" layer="51"/>
-<wire x1="-13.4" y1="-4" x2="-4" y2="-4" width="0.2032" layer="51"/>
-<wire x1="-2" y1="5" x2="2" y2="5" width="0.2032" layer="21"/>
-<wire x1="5.8" y1="5" x2="5.8" y2="-5" width="0.2032" layer="21"/>
-<wire x1="-2" y1="-5" x2="2" y2="-5" width="0.2032" layer="21"/>
-<wire x1="-4" y1="3" x2="-4" y2="-3" width="0.2032" layer="21"/>
-<wire x1="4.4704" y1="-3.5052" x2="2.8702" y2="-3.5052" width="0.0254" layer="51"/>
-<wire x1="4.4704" y1="3.4544" x2="2.8702" y2="3.4544" width="0.0254" layer="51"/>
-<pad name="SHELL" x="0.2032" y="0" drill="2.3"/>
-<pad name="PIN" x="4.0302" y="3.8016" drill="2.3"/>
-<pad name="SWITCH" x="4.0302" y="-3.827" drill="2.3"/>
-<rectangle x1="-3.8608" y1="3.4798" x2="-2.3622" y2="4.9784" layer="51"/>
-<rectangle x1="-3.8608" y1="-5.0292" x2="-2.3622" y2="-3.5306" layer="51"/>
-<rectangle x1="-1.2446" y1="-1.1176" x2="0.254" y2="1.1176" layer="51"/>
-<rectangle x1="2.8702" y1="-3.8862" x2="5.1054" y2="-3.5306" layer="51"/>
-<rectangle x1="2.8702" y1="3.4798" x2="5.1054" y2="3.8354" layer="51"/>
-<hole x="-3.1" y="4.25" drill="2.1336"/>
-<hole x="-3.1" y="-4.25" drill="2.1336"/>
-</package>
 <package name="1X08">
 <wire x1="14.605" y1="1.27" x2="15.875" y2="1.27" width="0.2032" layer="21"/>
 <wire x1="15.875" y1="1.27" x2="16.51" y2="0.635" width="0.2032" layer="21"/>
@@ -3391,22 +3429,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 </package>
 </packages>
 <symbols>
-<symbol name="RCA">
-<wire x1="-12.7" y1="-2.54" x2="-10.16" y2="0" width="0.1524" layer="94"/>
-<wire x1="-10.16" y1="0" x2="-7.62" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-7.62" y1="-2.54" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="-2.54" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94"/>
-<text x="-12.7" y="5.08" size="1.778" layer="96">&gt;Value</text>
-<text x="-12.7" y="-5.08" size="1.778" layer="95">&gt;Name</text>
-<rectangle x1="-12.7" y1="1.778" x2="-2.54" y2="3.302" layer="94"/>
-<pin name="SWITCH" x="0" y="0" visible="off" length="short" rot="R180"/>
-<pin name="SHELL" x="0" y="-2.54" visible="off" length="short" rot="R180"/>
-<pin name="PIN" x="0" y="2.54" visible="off" length="short" rot="R180"/>
-<wire x1="-5.08" y1="0" x2="-5.08" y2="2.54" width="0.1524" layer="94"/>
-<text x="-4.826" y="1.016" size="0.6096" layer="94">OPEN WHEN</text>
-<text x="-4.826" y="0.254" size="0.6096" layer="94">CONNECTED</text>
-</symbol>
 <symbol name="M08">
 <wire x1="1.27" y1="-10.16" x2="-5.08" y2="-10.16" width="0.4064" layer="94"/>
 <wire x1="-1.27" y1="-2.54" x2="0" y2="-2.54" width="0.6096" layer="94"/>
@@ -3475,33 +3497,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="RCA" prefix="JP">
-<gates>
-<gate name="G$1" symbol="RCA" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="RCA">
-<connects>
-<connect gate="G$1" pin="PIN" pad="PIN"/>
-<connect gate="G$1" pin="SHELL" pad="SHELL"/>
-<connect gate="G$1" pin="SWITCH" pad="SWITCH"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-LOCK" package="RCA_LOCK">
-<connects>
-<connect gate="G$1" pin="PIN" pad="PIN"/>
-<connect gate="G$1" pin="SHELL" pad="SHELL"/>
-<connect gate="G$1" pin="SWITCH" pad="SWITCH"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="M08" prefix="JP" uservalue="yes">
 <description>&lt;b&gt;Header 8&lt;/b&gt;
 Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-00116), right angle break away headers (PRT-00553), swiss pins (PRT-00743), machine pins (PRT-00117), and female headers (PRT-00115).</description>
@@ -5709,6 +5704,52 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pad name="1B" x="-0.75" y="2.25" drill="2.2" diameter="3.81"/>
 <pad name="2B" x="5.75" y="2.25" drill="2.2" diameter="3.81"/>
 </package>
+<package name="DPAK">
+<wire x1="3.2766" y1="2.4654" x2="3.277" y2="-3.729" width="0.2032" layer="21"/>
+<wire x1="3.277" y1="-3.729" x2="-3.277" y2="-3.729" width="0.2032" layer="21"/>
+<wire x1="-3.277" y1="-3.729" x2="-3.2766" y2="2.4654" width="0.2032" layer="21"/>
+<wire x1="-3.277" y1="2.465" x2="3.2774" y2="2.4646" width="0.2032" layer="51"/>
+<wire x1="-2.5654" y1="2.567" x2="-2.5654" y2="3.2782" width="0.2032" layer="51"/>
+<wire x1="-2.5654" y1="3.2782" x2="-2.1082" y2="3.7354" width="0.2032" layer="51"/>
+<wire x1="-2.1082" y1="3.7354" x2="2.1082" y2="3.7354" width="0.2032" layer="51"/>
+<wire x1="2.1082" y1="3.7354" x2="2.5654" y2="3.2782" width="0.2032" layer="51"/>
+<wire x1="2.5654" y1="3.2782" x2="2.5654" y2="2.567" width="0.2032" layer="51"/>
+<wire x1="2.5654" y1="2.567" x2="-2.5654" y2="2.567" width="0.2032" layer="51"/>
+<smd name="1" x="-2.28" y="-5.31" dx="1.6" dy="3" layer="1"/>
+<smd name="3" x="2.28" y="-5.31" dx="1.6" dy="3" layer="1"/>
+<smd name="4" x="0" y="1.588" dx="4.826" dy="5.715" layer="1"/>
+<text x="-3.683" y="-3.702" size="0.4064" layer="25" rot="R90">&gt;NAME</text>
+<text x="3.937" y="-3.702" size="0.4064" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.7178" y1="-6.7262" x2="-1.8542" y2="-3.8306" layer="51"/>
+<rectangle x1="1.8542" y1="-6.7262" x2="2.7178" y2="-3.8306" layer="51"/>
+<rectangle x1="-0.4318" y1="-4.5926" x2="0.4318" y2="-3.8306" layer="21"/>
+<polygon width="0.1998" layer="51">
+<vertex x="-2.5654" y="2.567"/>
+<vertex x="-2.5654" y="3.2782"/>
+<vertex x="-2.1082" y="3.7354"/>
+<vertex x="2.1082" y="3.7354"/>
+<vertex x="2.5654" y="3.2782"/>
+<vertex x="2.5654" y="2.567"/>
+</polygon>
+</package>
+<package name="RCA">
+<wire x1="-4" y1="5" x2="-4" y2="-5" width="0.2032" layer="51"/>
+<wire x1="-4" y1="-5" x2="5.8" y2="-5" width="0.2032" layer="51"/>
+<wire x1="5.8" y1="-5" x2="5.8" y2="5" width="0.2032" layer="51"/>
+<wire x1="5.8" y1="5" x2="-4" y2="5" width="0.2032" layer="51"/>
+<wire x1="-4" y1="4" x2="-13.4" y2="4" width="0.2032" layer="51"/>
+<wire x1="-13.4" y1="4" x2="-13.4" y2="-4" width="0.2032" layer="51"/>
+<wire x1="-13.4" y1="-4" x2="-4" y2="-4" width="0.2032" layer="51"/>
+<wire x1="-2" y1="5" x2="2" y2="5" width="0.2032" layer="21"/>
+<wire x1="5.8" y1="5" x2="5.8" y2="-5" width="0.2032" layer="21"/>
+<wire x1="-2" y1="-5" x2="2" y2="-5" width="0.2032" layer="21"/>
+<wire x1="-4" y1="3" x2="-4" y2="-3" width="0.2032" layer="21"/>
+<pad name="SHELL" x="0" y="0" drill="2.3"/>
+<pad name="PIN" x="3.7" y="3.7" drill="2.8" diameter="4.318"/>
+<pad name="SWITCH" x="3.7" y="-3.7" drill="2.8" diameter="4.318"/>
+<hole x="-3.1" y="4.25" drill="2.1"/>
+<hole x="-3.1" y="-4.25" drill="2.1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LM2776">
@@ -6739,6 +6780,36 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pin name="1" x="12.7" y="5.08" visible="pin" length="middle" rot="R180"/>
 <pin name="2" x="12.7" y="2.54" visible="pin" length="middle" rot="R180"/>
 </symbol>
+<symbol name="78XX">
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="-5.08" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
+<text x="2.54" y="-7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.032" y="-4.318" size="1.524" layer="95">GND</text>
+<text x="-4.445" y="-0.635" size="1.524" layer="95">IN</text>
+<text x="0.635" y="-0.635" size="1.524" layer="95">OUT</text>
+<pin name="IN" x="-7.62" y="0" visible="off" length="short" direction="in"/>
+<pin name="GND" x="0" y="-7.62" visible="off" length="short" direction="in" rot="R90"/>
+<pin name="OUT" x="7.62" y="0" visible="off" length="short" direction="out" rot="R180"/>
+</symbol>
+<symbol name="RCA">
+<wire x1="-12.7" y1="-2.54" x2="-10.16" y2="0" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="0" x2="-7.62" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94"/>
+<text x="-12.7" y="5.08" size="1.778" layer="96">&gt;Value</text>
+<text x="-12.7" y="-5.08" size="1.778" layer="95">&gt;Name</text>
+<rectangle x1="-12.7" y1="1.778" x2="-2.54" y2="3.302" layer="94"/>
+<pin name="SWITCH" x="0" y="0" visible="off" length="short" rot="R180"/>
+<pin name="SHELL" x="0" y="-2.54" visible="off" length="short" rot="R180"/>
+<pin name="PIN" x="0" y="2.54" visible="off" length="short" rot="R180"/>
+<wire x1="-5.08" y1="0" x2="-5.08" y2="2.54" width="0.1524" layer="94"/>
+<text x="-4.826" y="1.016" size="0.6096" layer="94">OPEN WHEN</text>
+<text x="-4.826" y="0.254" size="0.6096" layer="94">CONNECTED</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LM2776">
@@ -6836,73 +6907,33 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </device>
 </devices>
 </deviceset>
-</devicesets>
-</library>
-<library name="SparkFun-PowerIC">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-In this library you'll find drivers, regulators, and amplifiers.&lt;br&gt;&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="DPAK">
-<wire x1="3.2766" y1="2.4654" x2="3.277" y2="-3.729" width="0.2032" layer="21"/>
-<wire x1="3.277" y1="-3.729" x2="-3.277" y2="-3.729" width="0.2032" layer="21"/>
-<wire x1="-3.277" y1="-3.729" x2="-3.2766" y2="2.4654" width="0.2032" layer="21"/>
-<wire x1="-3.277" y1="2.465" x2="3.2774" y2="2.4646" width="0.2032" layer="51"/>
-<wire x1="-2.5654" y1="2.567" x2="-2.5654" y2="3.2782" width="0.2032" layer="51"/>
-<wire x1="-2.5654" y1="3.2782" x2="-2.1082" y2="3.7354" width="0.2032" layer="51"/>
-<wire x1="-2.1082" y1="3.7354" x2="2.1082" y2="3.7354" width="0.2032" layer="51"/>
-<wire x1="2.1082" y1="3.7354" x2="2.5654" y2="3.2782" width="0.2032" layer="51"/>
-<wire x1="2.5654" y1="3.2782" x2="2.5654" y2="2.567" width="0.2032" layer="51"/>
-<wire x1="2.5654" y1="2.567" x2="-2.5654" y2="2.567" width="0.2032" layer="51"/>
-<smd name="1" x="-2.28" y="-5.31" dx="1.6" dy="3" layer="1"/>
-<smd name="3" x="2.28" y="-5.31" dx="1.6" dy="3" layer="1"/>
-<smd name="4" x="0" y="1.588" dx="4.826" dy="5.715" layer="1"/>
-<text x="-3.683" y="-3.702" size="0.4064" layer="25" rot="R90">&gt;NAME</text>
-<text x="3.937" y="-3.702" size="0.4064" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-2.7178" y1="-6.7262" x2="-1.8542" y2="-3.8306" layer="51"/>
-<rectangle x1="1.8542" y1="-6.7262" x2="2.7178" y2="-3.8306" layer="51"/>
-<rectangle x1="-0.4318" y1="-4.5926" x2="0.4318" y2="-3.8306" layer="21"/>
-<polygon width="0.1998" layer="51">
-<vertex x="-2.5654" y="2.567"/>
-<vertex x="-2.5654" y="3.2782"/>
-<vertex x="-2.1082" y="3.7354"/>
-<vertex x="2.1082" y="3.7354"/>
-<vertex x="2.5654" y="3.2782"/>
-<vertex x="2.5654" y="2.567"/>
-</polygon>
-</package>
-</packages>
-<symbols>
-<symbol name="78XX">
-<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="5.08" y2="2.54" width="0.4064" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="-5.08" y2="2.54" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
-<text x="2.54" y="-7.62" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-2.032" y="-4.318" size="1.524" layer="95">GND</text>
-<text x="-4.445" y="-0.635" size="1.524" layer="95">IN</text>
-<text x="0.635" y="-0.635" size="1.524" layer="95">OUT</text>
-<pin name="IN" x="-7.62" y="0" visible="off" length="short" direction="in"/>
-<pin name="GND" x="0" y="-7.62" visible="off" length="short" direction="in" rot="R90"/>
-<pin name="OUT" x="7.62" y="0" visible="off" length="short" direction="out" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="V_REG_MC33269" prefix="U">
+<deviceset name="78XX">
 <gates>
 <gate name="G$1" symbol="78XX" x="0" y="0"/>
 </gates>
 <devices>
-<device name="DT" package="DPAK">
+<device name="" package="DPAK">
 <connects>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="IN" pad="3"/>
-<connect gate="G$1" pin="OUT" pad="4"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RCA" prefix="JP">
+<gates>
+<gate name="G$1" symbol="RCA" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RCA">
+<connects>
+<connect gate="G$1" pin="PIN" pad="PIN"/>
+<connect gate="G$1" pin="SHELL" pad="SHELL"/>
+<connect gate="G$1" pin="SWITCH" pad="SWITCH"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13557,11 +13588,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R7" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="75"/>
 <part name="C1" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="C2" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
-<part name="JP1" library="SparkFun-Connectors" deviceset="RCA" device="" value="PJRAN1X1U04X"/>
+<part name="JP1" library="BR-Eagle-Library" deviceset="RCA" device="" value="PJRAN1X1U04X"/>
 <part name="U$1" library="BR-Eagle-Library" deviceset="LM2776" device=""/>
-<part name="C5" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF"/>
-<part name="C6" library="SparkFun-Passives" deviceset="CAP_POL" device="1206" value="2.2uF"/>
-<part name="C7" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C5" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF X5R"/>
+<part name="C7" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="2.2uF X5R"/>
 <part name="C8" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="C10" library="SparkFun-Passives" deviceset="CAP_POL" device="1206" value="10uF 16V"/>
 <part name="JP2" library="SparkFun-Connectors" deviceset="M08" device="3.5MM-8" value="3.5MM SCREW"/>
@@ -13579,11 +13609,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="C4" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="JP6" library="SparkFun-Connectors" deviceset="RCA" device="" value="PJRAN1X1U04X"/>
+<part name="JP6" library="BR-Eagle-Library" deviceset="RCA" device="" value="PJRAN1X1U04X"/>
 <part name="U$2" library="BR-Eagle-Library" deviceset="LM2776" device=""/>
-<part name="C9" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF"/>
-<part name="C12" library="SparkFun-Passives" deviceset="CAP_POL" device="1206" value="2.2uF"/>
-<part name="C14" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C9" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF X5R"/>
+<part name="C14" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="2.2uF X5R"/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -13599,7 +13628,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="GND27" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="X2" library="SparkFun" deviceset="USB" device="SMD"/>
 <part name="GND30" library="SparkFun" deviceset="GND" device=""/>
-<part name="F1" library="SparkFun" deviceset="PTC" device="SMD" value="500mA"/>
+<part name="F1" library="SparkFun" deviceset="PTC" device="0603" value="500mA"/>
 <part name="C21" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="P+6" library="SparkFun" deviceset="VCC" device=""/>
 <part name="GND35" library="SparkFun" deviceset="GND" device=""/>
@@ -13640,12 +13669,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R25" library="SparkFun-Resistors" deviceset="33KOHM1/10W1%(0603)" device="" value="10K"/>
 <part name="U$3" library="SparkFun-DiscreteSemi" deviceset="MOSFET-PCHANNEL-SOIC8" device="SOIC8" value="Si4459ADY"/>
 <part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="3.3V" value="16V"/>
-<part name="C11" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="C13" library="SparkFun-Passives" deviceset="CAP_POL" device="6032" value="10uF 25V"/>
 <part name="FRAME1" library="frames" deviceset="LETTER_L" device=""/>
 <part name="FRAME2" library="frames" deviceset="LETTER_L" device=""/>
 <part name="FRAME3" library="frames" deviceset="LETTER_L" device=""/>
-<part name="GND-ISO1" library="SparkFun-Aesthetics" deviceset="GND-ISO" device=""/>
 <part name="GND-ISO3" library="SparkFun-Aesthetics" deviceset="GND-ISO" device=""/>
 <part name="FRAME4" library="frames" deviceset="LETTER_L" device=""/>
 <part name="FRAME6" library="frames" deviceset="LETTER_L" device=""/>
@@ -13669,18 +13696,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R39" library="SparkFun-Resistors" deviceset="33KOHM1/10W1%(0603)" device="" value="330"/>
 <part name="LED2" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN"/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R40" library="SparkFun-Resistors" deviceset="33KOHM1/10W1%(0603)" device="" value="1K"/>
-<part name="GND-ISO24" library="SparkFun-Aesthetics" deviceset="GND-ISO" device=""/>
-<part name="LED3" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW"/>
-<part name="R41" library="SparkFun-Resistors" deviceset="33KOHM1/10W1%(0603)" device="" value="1K"/>
-<part name="GND-ISO25" library="SparkFun-Aesthetics" deviceset="GND-ISO" device=""/>
-<part name="LED4" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW"/>
-<part name="R42" library="SparkFun-Resistors" deviceset="33KOHM1/10W1%(0603)" device="" value="1K"/>
-<part name="LED5" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW"/>
-<part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R43" library="SparkFun-Resistors" deviceset="33KOHM1/10W1%(0603)" device="" value="1K"/>
-<part name="LED6" library="SparkFun-LED" deviceset="LED" device="0603" value="YELLOW"/>
-<part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="STANDOFF1" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
 <part name="STANDOFF2" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
 <part name="STANDOFF3" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
@@ -13698,22 +13713,27 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="GND-ISO26" library="SparkFun-Aesthetics" deviceset="GND-ISO" device=""/>
 <part name="R35" library="SparkFun-Resistors" deviceset="33KOHM1/10W1%(0603)" device="" value="47K"/>
 <part name="GND-ISO27" library="SparkFun-Aesthetics" deviceset="GND-ISO" device=""/>
-<part name="U5" library="SparkFun-PowerIC" deviceset="V_REG_MC33269" device="DT" value="MC7805"/>
+<part name="U5" library="BR-Eagle-Library" deviceset="78XX" device="" value="MC7805"/>
 <part name="R45" library="SparkFun-Resistors" deviceset="33KOHM1/10W1%(0603)" device="" value="1K"/>
 <part name="D2" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="SOD" value="Schottky"/>
 <part name="SJ1" library="SparkFun-Passives" deviceset="JUMPER-PAD-3-2OF3_NC_BY_PASTE" device="" value=""/>
 <part name="JP10" library="SparkFun-Connectors" deviceset="M02" device="PTH" value="0.1&quot; HEADER"/>
 <part name="FRAME7" library="frames" deviceset="LETTER_L" device=""/>
 <part name="U$8" library="BR-Eagle-Library" deviceset="TETHER-HEADER" device="SERIAL" value="TETHER-HEADERSERIAL"/>
-<part name="U1" library="SparkFun-PowerIC" deviceset="V_REG_MC33269" device="DT" value="MC7812"/>
+<part name="U1" library="BR-Eagle-Library" deviceset="78XX" device="" value="MC7812"/>
 <part name="GND-ISO28" library="SparkFun-Aesthetics" deviceset="GND-ISO" device=""/>
-<part name="U2" library="SparkFun-PowerIC" deviceset="V_REG_MC33269" device="DT" value="MC7805"/>
+<part name="U2" library="BR-Eagle-Library" deviceset="78XX" device="" value="MC7805"/>
 <part name="JP4" library="SparkFun-Connectors" deviceset="M02" device="PTH" value="0.1&quot; HEADER"/>
 <part name="R15" library="resistor" deviceset="R-US_" device="R1210" value="NP"/>
 <part name="R16" library="resistor" deviceset="R-US_" device="R1210" value="NP"/>
 <part name="U$10" library="BR-Eagle-Library" deviceset="HEADER-2" device=""/>
 <part name="U$11" library="BR-Eagle-Library" deviceset="HEADER-2" device=""/>
 <part name="U$12" library="BR-Eagle-Library" deviceset="HEADER-2" device=""/>
+<part name="C11" library="SparkFun" deviceset="CAP" device="0603-CAP" value="1uF"/>
+<part name="R17" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10K"/>
+<part name="SJ4" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_PASTE" device=""/>
+<part name="C6" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="2.2uF X5R"/>
+<part name="C12" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="2.2uF X5R"/>
 </parts>
 <sheets>
 <sheet>
@@ -14129,11 +14149,6 @@ from alternate TOP-VIN</text>
 <label x="10.16" y="124.46" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP7" gate="G$1" pin="7"/>
-<wire x1="40.64" y1="152.4" x2="10.16" y2="152.4" width="0.1524" layer="91"/>
-<label x="10.16" y="152.4" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="JP4" gate="G$1" pin="1"/>
 <wire x1="109.22" y1="111.76" x2="93.98" y2="111.76" width="0.1524" layer="91"/>
 <label x="93.98" y="111.76" size="1.778" layer="95"/>
@@ -14165,6 +14180,13 @@ from alternate TOP-VIN</text>
 <label x="10.16" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="ROV-ON-CTRL" class="0">
+<segment>
+<pinref part="JP7" gate="G$1" pin="7"/>
+<wire x1="40.64" y1="152.4" x2="10.16" y2="152.4" width="0.1524" layer="91"/>
+<label x="10.16" y="152.4" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -14181,18 +14203,6 @@ from alternate TOP-VIN</text>
 <instance part="R39" gate="G$1" x="162.56" y="106.68" rot="R90"/>
 <instance part="LED2" gate="G$1" x="162.56" y="121.92"/>
 <instance part="GND3" gate="1" x="162.56" y="93.98"/>
-<instance part="R40" gate="G$1" x="60.96" y="106.68" rot="R90"/>
-<instance part="GND-ISO24" gate="G$1" x="60.96" y="93.98"/>
-<instance part="LED3" gate="G$1" x="60.96" y="121.92"/>
-<instance part="R41" gate="G$1" x="86.36" y="106.68" rot="R90"/>
-<instance part="GND-ISO25" gate="G$1" x="86.36" y="93.98"/>
-<instance part="LED4" gate="G$1" x="86.36" y="121.92"/>
-<instance part="R42" gate="G$1" x="185.42" y="106.68" rot="R90"/>
-<instance part="LED5" gate="G$1" x="185.42" y="121.92"/>
-<instance part="GND4" gate="1" x="185.42" y="93.98"/>
-<instance part="R43" gate="G$1" x="205.74" y="106.68" rot="R90"/>
-<instance part="LED6" gate="G$1" x="205.74" y="121.92"/>
-<instance part="GND5" gate="1" x="205.74" y="93.98"/>
 </instances>
 <busses>
 </busses>
@@ -14202,16 +14212,6 @@ from alternate TOP-VIN</text>
 <pinref part="R38" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="96.52" x2="35.56" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="GND-ISO23" gate="G$1" pin="GND-ISO"/>
-</segment>
-<segment>
-<pinref part="R40" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="96.52" x2="60.96" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="GND-ISO24" gate="G$1" pin="GND-ISO"/>
-</segment>
-<segment>
-<pinref part="R41" gate="G$1" pin="1"/>
-<wire x1="86.36" y1="96.52" x2="86.36" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="GND-ISO25" gate="G$1" pin="GND-ISO"/>
 </segment>
 </net>
 <net name="N$31" class="0">
@@ -14248,72 +14248,6 @@ from alternate TOP-VIN</text>
 <wire x1="162.56" y1="96.52" x2="162.56" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 </segment>
-<segment>
-<pinref part="R42" gate="G$1" pin="1"/>
-<wire x1="185.42" y1="96.52" x2="185.42" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="GND4" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="R43" gate="G$1" pin="1"/>
-<wire x1="205.74" y1="96.52" x2="205.74" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="GND5" gate="1" pin="GND"/>
-</segment>
-</net>
-<net name="N$34" class="0">
-<segment>
-<pinref part="R40" gate="G$1" pin="2"/>
-<pinref part="LED3" gate="G$1" pin="C"/>
-<wire x1="60.96" y1="111.76" x2="60.96" y2="116.84" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$35" class="0">
-<segment>
-<pinref part="R41" gate="G$1" pin="2"/>
-<pinref part="LED4" gate="G$1" pin="C"/>
-<wire x1="86.36" y1="111.76" x2="86.36" y2="116.84" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$36" class="0">
-<segment>
-<pinref part="R42" gate="G$1" pin="2"/>
-<pinref part="LED5" gate="G$1" pin="C"/>
-<wire x1="185.42" y1="111.76" x2="185.42" y2="116.84" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$37" class="0">
-<segment>
-<pinref part="R43" gate="G$1" pin="2"/>
-<pinref part="LED6" gate="G$1" pin="C"/>
-<wire x1="205.74" y1="111.76" x2="205.74" y2="116.84" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="ROV-TX" class="0">
-<segment>
-<pinref part="LED3" gate="G$1" pin="A"/>
-<wire x1="60.96" y1="124.46" x2="60.96" y2="134.62" width="0.1524" layer="91"/>
-<label x="60.96" y="132.08" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ROV-RX" class="0">
-<segment>
-<pinref part="LED4" gate="G$1" pin="A"/>
-<wire x1="86.36" y1="124.46" x2="86.36" y2="134.62" width="0.1524" layer="91"/>
-<label x="86.36" y="132.08" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="TX-O" class="0">
-<segment>
-<pinref part="LED5" gate="G$1" pin="A"/>
-<wire x1="185.42" y1="124.46" x2="185.42" y2="134.62" width="0.1524" layer="91"/>
-<label x="185.42" y="132.08" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="RX-I" class="0">
-<segment>
-<pinref part="LED6" gate="G$1" pin="A"/>
-<wire x1="205.74" y1="124.46" x2="205.74" y2="134.62" width="0.1524" layer="91"/>
-<label x="205.74" y="132.08" size="1.778" layer="95"/>
-</segment>
 </net>
 </nets>
 </sheet>
@@ -14334,21 +14268,17 @@ from alternate TOP-VIN</text>
 <instance part="FRAME3" gate="G$2" x="147.32" y="0"/>
 <instance part="U$1" gate="G$1" x="50.8" y="162.56"/>
 <instance part="C5" gate="G$1" x="73.66" y="160.02"/>
-<instance part="C6" gate="G$1" x="91.44" y="162.56" rot="R180"/>
 <instance part="C7" gate="G$1" x="20.32" y="160.02"/>
 <instance part="GND-ISO13" gate="G$1" x="20.32" y="152.4"/>
 <instance part="GND-ISO14" gate="G$1" x="33.02" y="152.4"/>
 <instance part="GND-ISO15" gate="G$1" x="91.44" y="152.4"/>
 <instance part="U$2" gate="G$1" x="185.42" y="162.56"/>
 <instance part="C9" gate="G$1" x="208.28" y="160.02"/>
-<instance part="C12" gate="G$1" x="223.52" y="162.56" rot="R180"/>
 <instance part="C14" gate="G$1" x="154.94" y="160.02"/>
 <instance part="GND12" gate="1" x="154.94" y="152.4"/>
 <instance part="GND13" gate="1" x="223.52" y="152.4"/>
 <instance part="GND17" gate="1" x="167.64" y="152.4"/>
-<instance part="C11" gate="G$1" x="25.4" y="119.38"/>
 <instance part="C13" gate="G$1" x="76.2" y="121.92"/>
-<instance part="GND-ISO1" gate="G$1" x="25.4" y="111.76"/>
 <instance part="GND-ISO3" gate="G$1" x="76.2" y="111.76"/>
 <instance part="C8" gate="G$1" x="22.86" y="68.58"/>
 <instance part="C10" gate="G$1" x="76.2" y="71.12"/>
@@ -14364,6 +14294,8 @@ from alternate TOP-VIN</text>
 <instance part="U1" gate="G$1" x="45.72" y="129.54"/>
 <instance part="GND-ISO28" gate="G$1" x="45.72" y="111.76"/>
 <instance part="U2" gate="G$1" x="180.34" y="132.08"/>
+<instance part="C6" gate="G$1" x="223.52" y="162.56"/>
+<instance part="C12" gate="G$1" x="91.44" y="162.56"/>
 </instances>
 <busses>
 </busses>
@@ -14391,10 +14323,10 @@ from alternate TOP-VIN</text>
 <pinref part="U$1" gate="G$1" pin="VOUT"/>
 <wire x1="63.5" y1="170.18" x2="91.44" y2="170.18" width="0.1524" layer="91"/>
 <label x="93.98" y="170.18" size="1.778" layer="95"/>
-<pinref part="C6" gate="G$1" pin="-"/>
 <wire x1="91.44" y1="170.18" x2="101.6" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="167.64" x2="91.44" y2="170.18" width="0.1524" layer="91"/>
 <junction x="91.44" y="170.18"/>
+<pinref part="C12" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="GND-ISO" class="0">
@@ -14408,11 +14340,6 @@ from alternate TOP-VIN</text>
 <wire x1="38.1" y1="165.1" x2="33.02" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="165.1" x2="33.02" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="GND-ISO14" gate="G$1" pin="GND-ISO"/>
-</segment>
-<segment>
-<pinref part="C11" gate="G$1" pin="2"/>
-<wire x1="25.4" y1="114.3" x2="25.4" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="GND-ISO1" gate="G$1" pin="GND-ISO"/>
 </segment>
 <segment>
 <pinref part="C13" gate="G$1" pin="-"/>
@@ -14431,8 +14358,8 @@ from alternate TOP-VIN</text>
 </segment>
 <segment>
 <pinref part="GND-ISO15" gate="G$1" pin="GND-ISO"/>
-<pinref part="C6" gate="G$1" pin="+"/>
 <wire x1="91.44" y1="154.94" x2="91.44" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="C12" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="43.18" y1="71.12" x2="43.18" y2="63.5" width="0.1524" layer="91"/>
@@ -14519,8 +14446,8 @@ from alternate TOP-VIN</text>
 </segment>
 <segment>
 <pinref part="GND13" gate="1" pin="GND"/>
-<pinref part="C12" gate="G$1" pin="+"/>
 <wire x1="223.52" y1="154.94" x2="223.52" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="180.34" y1="124.46" x2="180.34" y2="116.84" width="0.1524" layer="91"/>
@@ -14551,10 +14478,10 @@ from alternate TOP-VIN</text>
 <pinref part="U$2" gate="G$1" pin="VOUT"/>
 <wire x1="198.12" y1="170.18" x2="223.52" y2="170.18" width="0.1524" layer="91"/>
 <label x="228.6" y="170.18" size="1.778" layer="95"/>
-<pinref part="C12" gate="G$1" pin="-"/>
 <wire x1="223.52" y1="170.18" x2="236.22" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="167.64" x2="223.52" y2="170.18" width="0.1524" layer="91"/>
 <junction x="223.52" y="170.18"/>
+<pinref part="C6" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="12V-ISO" class="0">
@@ -14581,11 +14508,7 @@ from alternate TOP-VIN</text>
 </net>
 <net name="ROV-VIN" class="0">
 <segment>
-<pinref part="C11" gate="G$1" pin="1"/>
-<wire x1="25.4" y1="124.46" x2="25.4" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="129.54" x2="38.1" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="129.54" x2="7.62" y2="129.54" width="0.1524" layer="91"/>
-<junction x="25.4" y="129.54"/>
+<wire x1="38.1" y1="129.54" x2="7.62" y2="129.54" width="0.1524" layer="91"/>
 <label x="7.62" y="129.54" size="1.778" layer="95"/>
 <pinref part="U1" gate="G$1" pin="IN"/>
 </segment>
@@ -15241,6 +15164,10 @@ Max Battery Voltage: 26V</text>
 minimize power losses. If required, use:
 Series resistors: 43 ohm 1/4 W
 Parallel resistor: 86.6 ohm, 1/2 W</text>
+<text x="205.74" y="124.46" size="1.778" layer="97">Capacitively coupled
+reset circuitry to allow
+programming of Arduino
+boards.</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0"/>
@@ -15283,6 +15210,9 @@ Parallel resistor: 86.6 ohm, 1/2 W</text>
 <instance part="GND-ISO17" gate="G$1" x="35.56" y="15.24"/>
 <instance part="R15" gate="G$1" x="172.72" y="68.58" rot="R90"/>
 <instance part="R16" gate="G$1" x="116.84" y="15.24" rot="R90"/>
+<instance part="C11" gate="G$1" x="218.44" y="142.24" rot="R90"/>
+<instance part="R17" gate="G$1" x="226.06" y="149.86" rot="R90"/>
+<instance part="SJ4" gate="G$1" x="205.74" y="142.24"/>
 </instances>
 <busses>
 </busses>
@@ -15307,6 +15237,11 @@ Parallel resistor: 86.6 ohm, 1/2 W</text>
 <pinref part="IC3" gate="P" pin="VCC"/>
 <wire x1="91.44" y1="91.44" x2="91.44" y2="93.98" width="0.1524" layer="91"/>
 <label x="91.44" y="93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R17" gate="G$1" pin="2"/>
+<wire x1="226.06" y1="154.94" x2="226.06" y2="160.02" width="0.1524" layer="91"/>
+<label x="226.06" y="157.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -15585,6 +15520,32 @@ Parallel resistor: 86.6 ohm, 1/2 W</text>
 <pinref part="R28" gate="G$1" pin="2"/>
 <wire x1="175.26" y1="93.98" x2="185.42" y2="93.98" width="0.1524" layer="91"/>
 <label x="180.34" y="93.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="RTS" class="0">
+<segment>
+<pinref part="IC5" gate="G$1" pin="!RTS"/>
+<wire x1="170.18" y1="142.24" x2="200.66" y2="142.24" width="0.1524" layer="91"/>
+<label x="195.58" y="142.24" size="1.778" layer="95"/>
+<pinref part="SJ4" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="C11" gate="G$1" pin="1"/>
+<wire x1="210.82" y1="142.24" x2="213.36" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="SJ4" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="ROV-ON-CTRL" class="0">
+<segment>
+<pinref part="C11" gate="G$1" pin="2"/>
+<wire x1="220.98" y1="142.24" x2="226.06" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="R17" gate="G$1" pin="1"/>
+<wire x1="226.06" y1="142.24" x2="238.76" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="142.24" x2="226.06" y2="144.78" width="0.1524" layer="91"/>
+<junction x="226.06" y="142.24"/>
+<label x="228.6" y="142.24" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
