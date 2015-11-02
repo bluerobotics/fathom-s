@@ -15,7 +15,7 @@ The Fathom Serial Hardware is designed to be used with tether cables that have f
 ##Features 
 
 * Low Latency Analog Video through NTSC or PAL (Up to 2000 ft, 600m)
-* Full-duplex RS-485 serial connection with TTL and USB connections (up to 250 Kbps, 4000 ft, 1200m)
+* Full-duplex RS-422 serial connection with TTL and USB connections (up to 250 Kbps, 4000 ft, 1200m)
 * Power switch that uses a 3-50V input signal to connect batteries and provide up to 40A continuous
 * Onboard 5V and 12V (camera) regulated supplies
 * Jumpers to enable/disable configuration options
