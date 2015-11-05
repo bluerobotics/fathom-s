@@ -14570,8 +14570,8 @@ LETTER landscape</description>
 <part name="C2" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="JP1" library="BR-Eagle-Library" deviceset="RCA" device="" value="PJRAN1X1U04X"/>
 <part name="U$1" library="BR-Eagle-Library" deviceset="LM2776" device=""/>
-<part name="C5" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF X5R"/>
-<part name="C7" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="2.2uF X5R"/>
+<part name="C5" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF X5R 35V"/>
+<part name="C7" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="10uF X5R 10V"/>
 <part name="C8" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="C10" library="SparkFun-Passives" deviceset="CAP_POL" device="1206" value="10uF 16V"/>
 <part name="JP2" library="SparkFun-Connectors" deviceset="M08" device="3.5MM-8" value="3.5MM SCREW"/>
@@ -14591,8 +14591,8 @@ LETTER landscape</description>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="JP6" library="BR-Eagle-Library" deviceset="RCA" device="" value="PJRAN1X1U04X"/>
 <part name="U$2" library="BR-Eagle-Library" deviceset="LM2776" device=""/>
-<part name="C9" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF X5R"/>
-<part name="C14" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="2.2uF X5R"/>
+<part name="C9" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF X5R 35V"/>
+<part name="C14" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="10uF X5R 10V"/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -14712,8 +14712,8 @@ LETTER landscape</description>
 <part name="C11" library="SparkFun" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="R17" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10K"/>
 <part name="SJ4" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_PASTE" device=""/>
-<part name="C6" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="2.2uF X5R"/>
-<part name="C12" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="2.2uF X5R"/>
+<part name="C6" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="10uF X5R 10V"/>
+<part name="C12" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="10uF X5R 10V"/>
 </parts>
 <sheets>
 <sheet>
