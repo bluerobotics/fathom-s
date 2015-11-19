@@ -8,24 +8,24 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -34,8 +34,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -43,17 +43,17 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -5732,24 +5732,6 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <vertex x="2.5654" y="2.567"/>
 </polygon>
 </package>
-<package name="RCA">
-<wire x1="-4" y1="5" x2="-4" y2="-5" width="0.2032" layer="51"/>
-<wire x1="-4" y1="-5" x2="5.8" y2="-5" width="0.2032" layer="51"/>
-<wire x1="5.8" y1="-5" x2="5.8" y2="5" width="0.2032" layer="51"/>
-<wire x1="5.8" y1="5" x2="-4" y2="5" width="0.2032" layer="51"/>
-<wire x1="-4" y1="4" x2="-13.4" y2="4" width="0.2032" layer="51"/>
-<wire x1="-13.4" y1="4" x2="-13.4" y2="-4" width="0.2032" layer="51"/>
-<wire x1="-13.4" y1="-4" x2="-4" y2="-4" width="0.2032" layer="51"/>
-<wire x1="-2" y1="5" x2="2" y2="5" width="0.2032" layer="21"/>
-<wire x1="5.8" y1="5" x2="5.8" y2="-5" width="0.2032" layer="21"/>
-<wire x1="-2" y1="-5" x2="2" y2="-5" width="0.2032" layer="21"/>
-<wire x1="-4" y1="3" x2="-4" y2="-3" width="0.2032" layer="21"/>
-<pad name="SHELL" x="0" y="0" drill="2.3"/>
-<pad name="PIN" x="3.7" y="3.7" drill="2.8" diameter="4.318"/>
-<pad name="SWITCH" x="3.7" y="-3.7" drill="2.8" diameter="4.318"/>
-<hole x="-3.1" y="4.25" drill="2.1"/>
-<hole x="-3.1" y="-4.25" drill="2.1"/>
-</package>
 </packages>
 <symbols>
 <symbol name="LM2776">
@@ -6794,22 +6776,6 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pin name="GND" x="0" y="-7.62" visible="off" length="short" direction="in" rot="R90"/>
 <pin name="OUT" x="7.62" y="0" visible="off" length="short" direction="out" rot="R180"/>
 </symbol>
-<symbol name="RCA">
-<wire x1="-12.7" y1="-2.54" x2="-10.16" y2="0" width="0.1524" layer="94"/>
-<wire x1="-10.16" y1="0" x2="-7.62" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-7.62" y1="-2.54" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="-2.54" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94"/>
-<text x="-12.7" y="5.08" size="1.778" layer="96">&gt;Value</text>
-<text x="-12.7" y="-5.08" size="1.778" layer="95">&gt;Name</text>
-<rectangle x1="-12.7" y1="1.778" x2="-2.54" y2="3.302" layer="94"/>
-<pin name="SWITCH" x="0" y="0" visible="off" length="short" rot="R180"/>
-<pin name="SHELL" x="0" y="-2.54" visible="off" length="short" rot="R180"/>
-<pin name="PIN" x="0" y="2.54" visible="off" length="short" rot="R180"/>
-<wire x1="-5.08" y1="0" x2="-5.08" y2="2.54" width="0.1524" layer="94"/>
-<text x="-4.826" y="1.016" size="0.6096" layer="94">OPEN WHEN</text>
-<text x="-4.826" y="0.254" size="0.6096" layer="94">CONNECTED</text>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LM2776">
@@ -6917,23 +6883,6 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <connect gate="G$1" pin="GND" pad="4"/>
 <connect gate="G$1" pin="IN" pad="1"/>
 <connect gate="G$1" pin="OUT" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="RCA" prefix="JP">
-<gates>
-<gate name="G$1" symbol="RCA" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="RCA">
-<connects>
-<connect gate="G$1" pin="PIN" pad="PIN"/>
-<connect gate="G$1" pin="SHELL" pad="SHELL"/>
-<connect gate="G$1" pin="SWITCH" pad="SWITCH"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13512,6 +13461,24 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </library>
 <library name="BlueRobotics-Main">
 <packages>
+<package name="RCA">
+<wire x1="-4" y1="5" x2="-4" y2="-5" width="0.2032" layer="51"/>
+<wire x1="-4" y1="-5" x2="5.8" y2="-5" width="0.2032" layer="51"/>
+<wire x1="5.8" y1="-5" x2="5.8" y2="5" width="0.2032" layer="51"/>
+<wire x1="5.8" y1="5" x2="-4" y2="5" width="0.2032" layer="51"/>
+<wire x1="-4" y1="4" x2="-13.4" y2="4" width="0.2032" layer="51"/>
+<wire x1="-13.4" y1="4" x2="-13.4" y2="-4" width="0.2032" layer="51"/>
+<wire x1="-13.4" y1="-4" x2="-4" y2="-4" width="0.2032" layer="51"/>
+<wire x1="-2" y1="5" x2="2" y2="5" width="0.2032" layer="21"/>
+<wire x1="5.8" y1="5" x2="5.8" y2="-5" width="0.2032" layer="21"/>
+<wire x1="-2" y1="-5" x2="2" y2="-5" width="0.2032" layer="21"/>
+<wire x1="-4" y1="3" x2="-4" y2="-3" width="0.2032" layer="21"/>
+<pad name="SHELL" x="0" y="0" drill="2.3"/>
+<pad name="PIN" x="4" y="3.7" drill="2.8" diameter="4.318"/>
+<pad name="SWITCH" x="4" y="-3.7" drill="2.8" diameter="4.318"/>
+<hole x="-3.1" y="4.25" drill="2.1"/>
+<hole x="-3.1" y="-4.25" drill="2.1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LETTER_L">
@@ -14527,6 +14494,22 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <rectangle x1="4.889496875" y1="24.77261875" x2="5.300971875" y2="24.78785625" layer="94"/>
 <text x="1.77291875" y="6.583678125" size="2.54" layer="94">&gt;VALUE</text>
 </symbol>
+<symbol name="RCA">
+<wire x1="-12.7" y1="-2.54" x2="-10.16" y2="0" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="0" x2="-7.62" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94"/>
+<text x="-12.7" y="5.08" size="1.778" layer="96">&gt;Value</text>
+<text x="-12.7" y="-5.08" size="1.778" layer="95">&gt;Name</text>
+<rectangle x1="-12.7" y1="1.778" x2="-2.54" y2="3.302" layer="94"/>
+<pin name="SWITCH" x="0" y="0" visible="off" length="short" rot="R180"/>
+<pin name="SHELL" x="0" y="-2.54" visible="off" length="short" rot="R180"/>
+<pin name="PIN" x="0" y="2.54" visible="off" length="short" rot="R180"/>
+<wire x1="-5.08" y1="0" x2="-5.08" y2="2.54" width="0.1524" layer="94"/>
+<text x="-4.826" y="1.016" size="0.6096" layer="94">OPEN WHEN</text>
+<text x="-4.826" y="0.254" size="0.6096" layer="94">CONNECTED</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FRAME-BLUEROBOTICS" prefix="FRAME" uservalue="yes">
@@ -14538,6 +14521,23 @@ LETTER landscape</description>
 </gates>
 <devices>
 <device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RCA" prefix="JP">
+<gates>
+<gate name="G$1" symbol="RCA" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RCA">
+<connects>
+<connect gate="G$1" pin="PIN" pad="PIN"/>
+<connect gate="G$1" pin="SHELL" pad="SHELL"/>
+<connect gate="G$1" pin="SWITCH" pad="SWITCH"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -14568,7 +14568,7 @@ LETTER landscape</description>
 <part name="R7" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="75"/>
 <part name="C1" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="C2" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
-<part name="JP1" library="BR-Eagle-Library" deviceset="RCA" device="" value="PJRAN1X1U04X"/>
+<part name="JP1" library="BlueRobotics-Main" deviceset="RCA" device="" value="PJRAN1X1U04X"/>
 <part name="U$1" library="BR-Eagle-Library" deviceset="LM2776" device=""/>
 <part name="C5" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF X5R 35V"/>
 <part name="C7" library="SparkFun-Passives" deviceset="CAP" device="0805" value="10uF X5R 10V"/>
@@ -14589,7 +14589,7 @@ LETTER landscape</description>
 <part name="C4" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="JP6" library="BR-Eagle-Library" deviceset="RCA" device="" value="PJRAN1X1U04X"/>
+<part name="JP6" library="BlueRobotics-Main" deviceset="RCA" device="" value="PJRAN1X1U04X"/>
 <part name="U$2" library="BR-Eagle-Library" deviceset="LM2776" device=""/>
 <part name="C9" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF X5R 35V"/>
 <part name="C14" library="SparkFun-Passives" deviceset="CAP" device="0805" value="10uF X5R 10V"/>
@@ -14714,6 +14714,8 @@ LETTER landscape</description>
 <part name="SJ4" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_PASTE" device=""/>
 <part name="C6" library="SparkFun-Passives" deviceset="CAP" device="0805" value="10uF X5R 10V"/>
 <part name="C12" library="SparkFun-Passives" deviceset="CAP" device="0805" value="10uF X5R 10V"/>
+<part name="C26" library="SparkFun-Passives" deviceset="CAP" device="0805" value="10uF X5R 10V"/>
+<part name="C27" library="SparkFun-Passives" deviceset="CAP" device="0805" value="10uF X5R 10V"/>
 </parts>
 <sheets>
 <sheet>
@@ -15273,6 +15275,8 @@ from alternate TOP-VIN</text>
 <instance part="U2" gate="G$1" x="180.34" y="132.08"/>
 <instance part="C6" gate="G$1" x="223.52" y="162.56"/>
 <instance part="C12" gate="G$1" x="91.44" y="162.56"/>
+<instance part="C26" gate="G$1" x="12.7" y="160.02"/>
+<instance part="C27" gate="G$1" x="147.32" y="160.02"/>
 </instances>
 <busses>
 </busses>
@@ -15311,6 +15315,10 @@ from alternate TOP-VIN</text>
 <pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="20.32" y1="154.94" x2="20.32" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="GND-ISO13" gate="G$1" pin="GND-ISO"/>
+<pinref part="C26" gate="G$1" pin="2"/>
+<wire x1="12.7" y1="157.48" x2="12.7" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="154.94" x2="20.32" y2="154.94" width="0.1524" layer="91"/>
+<junction x="20.32" y="154.94"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND"/>
@@ -15356,13 +15364,17 @@ from alternate TOP-VIN</text>
 <pinref part="U$1" gate="G$1" pin="VIN"/>
 <wire x1="20.32" y1="170.18" x2="33.02" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="170.18" x2="38.1" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="170.18" x2="7.62" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="170.18" x2="12.7" y2="170.18" width="0.1524" layer="91"/>
 <junction x="20.32" y="170.18"/>
 <label x="7.62" y="170.18" size="1.778" layer="95"/>
 <pinref part="U$1" gate="G$1" pin="EN"/>
+<wire x1="12.7" y1="170.18" x2="7.62" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="167.64" x2="33.02" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="167.64" x2="33.02" y2="170.18" width="0.1524" layer="91"/>
 <junction x="33.02" y="170.18"/>
+<pinref part="C26" gate="G$1" pin="1"/>
+<wire x1="12.7" y1="165.1" x2="12.7" y2="170.18" width="0.1524" layer="91"/>
+<junction x="12.7" y="170.18"/>
 </segment>
 <segment>
 <pinref part="C10" gate="G$1" pin="+"/>
@@ -15381,13 +15393,17 @@ from alternate TOP-VIN</text>
 <pinref part="U$2" gate="G$1" pin="VIN"/>
 <wire x1="154.94" y1="170.18" x2="167.64" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="170.18" x2="172.72" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="170.18" x2="142.24" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="170.18" x2="147.32" y2="170.18" width="0.1524" layer="91"/>
 <junction x="154.94" y="170.18"/>
 <label x="142.24" y="170.18" size="1.778" layer="95"/>
 <pinref part="U$2" gate="G$1" pin="EN"/>
+<wire x1="147.32" y1="170.18" x2="142.24" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="167.64" x2="167.64" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="167.64" x2="167.64" y2="170.18" width="0.1524" layer="91"/>
 <junction x="167.64" y="170.18"/>
+<pinref part="C27" gate="G$1" pin="1"/>
+<wire x1="147.32" y1="165.1" x2="147.32" y2="170.18" width="0.1524" layer="91"/>
+<junction x="147.32" y="170.18"/>
 </segment>
 <segment>
 <pinref part="C16" gate="G$1" pin="+"/>
@@ -15404,6 +15420,10 @@ from alternate TOP-VIN</text>
 <pinref part="GND12" gate="1" pin="GND"/>
 <pinref part="C14" gate="G$1" pin="2"/>
 <wire x1="154.94" y1="154.94" x2="154.94" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="C27" gate="G$1" pin="2"/>
+<wire x1="147.32" y1="157.48" x2="147.32" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="154.94" x2="154.94" y2="154.94" width="0.1524" layer="91"/>
+<junction x="154.94" y="154.94"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="GND"/>
