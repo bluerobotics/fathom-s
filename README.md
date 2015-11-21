@@ -14,13 +14,14 @@ The Fathom Serial Hardware is designed to be used with tether cables that have f
 
 ##Features 
 
-* Low Latency Analog Video through NTSC or PAL (Up to 2000 ft, 600m)
-* Full-duplex RS-422 serial connection with TTL and USB connections (up to 250 Kbps, 4000 ft, 1200m)
-* Power switch that uses a 3-50V input signal to connect batteries and provide up to 40A continuous
+* Low Latency Analog Video through NTSC or PAL (1000+ ft, 300+ m)
+* Full-duplex RS-422 serial connection with TTL and USB connections (up to 250 Kbps, 4000 ft, 1200 m)
+* Power switch that uses a 3-50V input signal to connect batteries and provide up to 20A continuous, 40A burst current
 * Onboard 5V and 12V (camera) regulated supplies
 * Jumpers to enable/disable configuration options
 	* Power-on through tether / power always on when batteries connected
 	* Power board from battery / power board from alternate input
+	* Power cycle on USB RTS signal for Arduino programming
 * 0.1" I/O header for ribbon cable to ROV controller
 * Current and voltage sense outputs
 
@@ -60,4 +61,5 @@ The Fathom Serial Hardware Design is released under the MIT License.
 
 ##Revision History
 
-0.0 - Under development
+0.0 - Under development. Not fully functionl.
+0.1 - Second prototype. Not fully functional.
