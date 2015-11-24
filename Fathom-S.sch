@@ -16609,8 +16609,14 @@ Max Battery Voltage: 26V</text>
 <wire x1="210.82" y1="76.2" x2="203.2" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="R18" gate="R?" pin="WIPER"/>
 <wire x1="203.2" y1="76.2" x2="193.04" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="91.44" x2="203.2" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="91.44" x2="203.2" y2="86.36" width="0.1524" layer="91"/>
 <junction x="203.2" y="76.2"/>
+<pinref part="R18" gate="R?" pin="CW"/>
+<wire x1="203.2" y1="86.36" x2="203.2" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="96.52" x2="210.82" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="96.52" x2="210.82" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="86.36" x2="203.2" y2="86.36" width="0.1524" layer="91"/>
+<junction x="203.2" y="86.36"/>
 </segment>
 </net>
 <net name="TOP-TP1+" class="0">
