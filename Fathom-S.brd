@@ -4331,8 +4331,8 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="0" y="48.26"/>
 <vertex x="13.97" y="48.26"/>
 </polygon>
-<wire x1="12.7" y1="30.48" x2="17.78" y2="30.48" width="1.016" layer="1"/>
-<via x="13.49375" y="29.36875" extent="1-16" drill="0.5"/>
+<wire x1="12.54125" y1="30.00375" x2="17.62125" y2="30.00375" width="1.016" layer="1"/>
+<via x="13.49375" y="28.73375" extent="1-16" drill="0.5"/>
 <via x="13.49375" y="31.4325" extent="1-16" drill="0.5"/>
 <via x="10.63625" y="15.71625" extent="1-16" drill="0.5"/>
 <via x="11.43" y="4.28625" extent="1-16" drill="0.5"/>
@@ -4362,7 +4362,6 @@ Please make sure your boards conform to these design rules.</description>
 <via x="19.3675" y="40.9575" extent="1-16" drill="0.5"/>
 <via x="25.87625" y="33.49625" extent="1-16" drill="0.5"/>
 <wire x1="13.81125" y1="10.16" x2="13.81125" y2="10.00125" width="0.6096" layer="1"/>
-<wire x1="13.6525" y1="21.9075" x2="15.71625" y2="21.9075" width="0.6096" layer="1"/>
 <via x="13.335" y="5.87375" extent="1-16" drill="0.5"/>
 <via x="13.97" y="8.255" extent="1-16" drill="0.5"/>
 <via x="13.81125" y="12.54125" extent="1-16" drill="0.5"/>
@@ -4435,6 +4434,7 @@ Please make sure your boards conform to these design rules.</description>
 <via x="47.625" y="30.1625" extent="1-16" drill="0.5"/>
 <via x="20.32" y="34.29" extent="1-16" drill="0.5"/>
 <via x="18.415" y="37.94125" extent="1-16" drill="0.5"/>
+<via x="19.05" y="28.73375" extent="1-16" drill="0.5"/>
 </signal>
 <signal name="VCC-ISO">
 <contactref element="C7" pad="1"/>
@@ -4718,12 +4718,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="JP3" pad="2"/>
 <contactref element="U$8" pad="12V"/>
 <contactref element="U1" pad="3"/>
-<wire x1="7.62" y1="31.75" x2="7.62" y2="26.9875" width="0.6096" layer="16"/>
-<wire x1="7.62" y1="26.9875" x2="12.7" y2="21.9075" width="0.6096" layer="16"/>
-<wire x1="12.7" y1="21.9075" x2="21.9075" y2="21.9075" width="0.6096" layer="16"/>
 <wire x1="33.02" y1="36.4475" x2="32.955" y2="36.4475" width="0.6096" layer="1"/>
-<wire x1="21.9075" y1="21.9075" x2="30.00375" y2="30.00375" width="0.6096" layer="16"/>
-<wire x1="30.00375" y1="30.00375" x2="31.90875" y2="30.00375" width="0.6096" layer="16"/>
 <via x="31.90875" y="30.00375" extent="1-16" drill="0.5"/>
 <wire x1="31.90875" y1="30.00375" x2="32.30375" y2="30.00375" width="0.6096" layer="1"/>
 <wire x1="32.30375" y1="30.00375" x2="33.7325" y2="31.4325" width="0.6096" layer="1"/>
@@ -4733,6 +4728,9 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="33.81375" y1="31.35125" x2="33.7325" y2="31.4325" width="1.016" layer="1"/>
 <wire x1="33.7325" y1="31.4325" x2="33.7325" y2="35.735" width="1.016" layer="1"/>
 <wire x1="33.7325" y1="35.735" x2="33.02" y2="36.4475" width="1.016" layer="1"/>
+<wire x1="31.90875" y1="30.00375" x2="8.09625" y2="30.00375" width="0.6096" layer="16"/>
+<wire x1="8.09625" y1="30.00375" x2="7.62" y2="30.48" width="0.6096" layer="16"/>
+<wire x1="7.62" y1="30.48" x2="7.62" y2="31.75" width="0.6096" layer="16"/>
 </signal>
 <signal name="ROV-BATT">
 <contactref element="R33" pad="2"/>
