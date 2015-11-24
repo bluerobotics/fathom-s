@@ -61,5 +61,8 @@ The Fathom Serial Hardware Design is released under the MIT License.
 
 ##Revision History
 
-0.0 - Under development. Not fully functionl.
+0.0 - Under development. Not fully functional.
+
 0.1 - Second prototype. Not fully functional.
+
+0.2 - Third prototype. Untested.
