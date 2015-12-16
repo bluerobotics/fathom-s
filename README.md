@@ -55,6 +55,14 @@ Examples TBD
 
 Dimensions, screw holes, wire gauges, etc.
 
+##APM/PixHawk Adapter Board
+
+The APM/PixHawk Adapter Board allows the Fathom-S board to be interfaced directly to an APM2.6 or PixHawk and many other similar autopilot boards. The following connectors are available:
+
+* Telemetry serial port to the tether RS422 serial port (via DF13 connector)
+* Power to the power plug including voltage and current monitoring (via DF13 connector)
+
+
 ##License
 
 The Fathom Serial Hardware Design is released under the MIT License.
