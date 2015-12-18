@@ -15213,7 +15213,7 @@ LETTER landscape</description>
 <part name="U$11" library="BR-Eagle-Library" deviceset="HEADER-2" device=""/>
 <part name="U$12" library="BR-Eagle-Library" deviceset="HEADER-2" device=""/>
 <part name="C11" library="SparkFun" deviceset="CAP" device="0603-CAP" value="1uF"/>
-<part name="R17" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10K"/>
+<part name="R17" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="47K"/>
 <part name="SJ4" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_PASTE" device=""/>
 <part name="C6" library="SparkFun-Passives" deviceset="CAP" device="0805" value="10uF X5R 10V"/>
 <part name="C12" library="SparkFun-Passives" deviceset="CAP" device="0805" value="10uF X5R 10V"/>
