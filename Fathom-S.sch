@@ -8,24 +8,24 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="3" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="3" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -34,8 +34,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -43,17 +43,17 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="3" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="3" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -1040,57 +1040,6 @@ It has reduced top mask to make it harder to put the component on the wrong side
 <text x="-2.54" y="1.381" size="0.4064" layer="25">&gt;NAME</text>
 <text x="0.408" y="1.332" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
-<package name="PAD-JUMPER-3-2OF3_NC_BY_PASTE_YES_SILK_FULL_BOX">
-<wire x1="1.27" y1="-1.016" x2="-1.27" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="1.016" x2="1.524" y2="0.762" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.524" y1="0.762" x2="-1.27" y2="1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.524" y1="-0.762" x2="-1.27" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.27" y1="-1.016" x2="1.524" y2="-0.762" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.524" y1="-0.762" x2="1.524" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-1.524" y1="-0.762" x2="-1.524" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="1.016" x2="1.27" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0.508" x2="-0.1905" y2="0.508" width="0.127" layer="51"/>
-<wire x1="-0.1905" y1="0.508" x2="-0.1905" y2="-0.508" width="0.127" layer="51"/>
-<wire x1="-0.1905" y1="-0.508" x2="1.016" y2="-0.508" width="0.127" layer="51"/>
-<wire x1="1.016" y1="-0.508" x2="1.016" y2="0.508" width="0.127" layer="51"/>
-<smd name="1" x="-0.8128" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<smd name="2" x="0" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<smd name="3" x="0.8128" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<text x="-1.27" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-0.1001" y="0" size="0.02" layer="27">&gt;VALUE</text>
-<text x="-1.27" y="-1.905" size="0.4064" layer="27">&gt;VALUE</text>
-<text x="0.0635" y="-0.4445" size="0.254" layer="51" rot="R40">PASTE</text>
-<rectangle x1="-0.2794" y1="-1.016" x2="1.4224" y2="0.9906" layer="31"/>
-</package>
-<package name="PAD-JUMPER-2-NC_BY_PASTE_YES_SILK">
-<wire x1="0.8" y1="-1" x2="-0.8" y2="-1" width="0.2032" layer="21"/>
-<wire x1="0.8" y1="1" x2="1" y2="0.7" width="0.2032" layer="21" curve="-90.076445"/>
-<wire x1="-1" y1="0.7" x2="-0.8" y2="1" width="0.2032" layer="21" curve="-90.03821"/>
-<wire x1="-1" y1="-0.7" x2="-0.8" y2="-1" width="0.2032" layer="21" curve="90.03821"/>
-<wire x1="0.8" y1="-1" x2="1" y2="-0.7" width="0.2032" layer="21" curve="90.03821"/>
-<wire x1="-0.8" y1="1" x2="0.8" y2="1" width="0.2032" layer="21"/>
-<smd name="1" x="-0.4009" y="0" dx="0.635" dy="1.27" layer="1" rot="R180" cream="no"/>
-<smd name="2" x="0.4127" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<text x="-0.9525" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-0.9525" y="-1.651" size="0.4064" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.016" y1="-1.016" x2="1.016" y2="1.016" layer="31"/>
-</package>
-<package name="PAD-JUMPER-2-NC_BY_PASTE_YES_SILK_FULL_BOX">
-<description>Small solder jumper with big paste layer so it will short during reflow.</description>
-<wire x1="0.8" y1="-1" x2="-0.8" y2="-1" width="0.1524" layer="21"/>
-<wire x1="0.8" y1="1" x2="1.1" y2="0.75" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.1" y1="0.75" x2="-0.8" y2="1" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.1" y1="-0.75" x2="-0.8" y2="-1" width="0.1524" layer="21" curve="90.114706"/>
-<wire x1="0.8" y1="-1" x2="1.1" y2="-0.75" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.1" y1="-0.75" x2="1.1" y2="0.75" width="0.1524" layer="21"/>
-<wire x1="-1.1" y1="-0.75" x2="-1.1" y2="0.75" width="0.1524" layer="21"/>
-<wire x1="-0.8" y1="1" x2="0.8" y2="1" width="0.1524" layer="21"/>
-<smd name="1" x="-0.4119" y="0" dx="0.635" dy="1.27" layer="1"/>
-<smd name="2" x="0.4119" y="0" dx="0.635" dy="1.27" layer="1"/>
-<text x="-0.9498" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-0.9498" y="-1.651" size="0.4064" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.2192" y1="-1.143" x2="1.2192" y2="1.143" layer="31"/>
-</package>
 </packages>
 <symbols>
 <symbol name="RESISTOR">
@@ -1129,40 +1078,6 @@ It has reduced top mask to make it harder to put the component on the wrong side
 <rectangle x1="-1.872" y1="0.287" x2="-1.745" y2="1.176" layer="94"/>
 <pin name="+" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-</symbol>
-<symbol name="PAD-JUMPER-3-2OF3-NC_BY_PASTE">
-<wire x1="-0.635" y1="-1.397" x2="0.635" y2="-1.397" width="1.27" layer="94" curve="180" cap="flat"/>
-<wire x1="-0.635" y1="1.397" x2="0.635" y2="1.397" width="1.27" layer="94" curve="-180" cap="flat"/>
-<wire x1="1.27" y1="-0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="-0.635" x2="-1.27" y2="0" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-1.27" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="0.635" x2="1.27" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
-<text x="2.54" y="0.381" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-1.905" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-1.27" y1="-0.635" x2="1.27" y2="0.635" layer="94"/>
-<pin name="3" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="2" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
-<polygon width="0.254" layer="95">
-<vertex x="-1.524" y="0.762"/>
-<vertex x="-1.524" y="-1.524" curve="90"/>
-<vertex x="0" y="-3.048" curve="90"/>
-<vertex x="1.524" y="-1.524"/>
-<vertex x="1.524" y="0.762"/>
-</polygon>
-</symbol>
-<symbol name="PAD-JUMPER-2-NC_BY_PASTE">
-<wire x1="0.381" y1="0.635" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
-<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
-<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
-<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<circle x="0" y="0" radius="1.93440625" width="0" layer="95"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1600,48 +1515,6 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <connects>
 <connect gate="G$1" pin="+" pad="A"/>
 <connect gate="G$1" pin="-" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="JUMPER-PAD-3-2OF3_NC_BY_PASTE" prefix="SJ">
-<gates>
-<gate name="G$1" symbol="PAD-JUMPER-3-2OF3-NC_BY_PASTE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="PAD-JUMPER-3-2OF3_NC_BY_PASTE_YES_SILK_FULL_BOX">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="JUMPER-PAD-2-NC_BY_PASTE" prefix="SJ">
-<gates>
-<gate name="G$1" symbol="PAD-JUMPER-2-NC_BY_PASTE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="PAD-JUMPER-2-NC_BY_PASTE_YES_SILK">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="FULL-BOX-SILK" package="PAD-JUMPER-2-NC_BY_PASTE_YES_SILK_FULL_BOX">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12890,6 +12763,70 @@ MSOP&lt;br&gt;
 <rectangle x1="2.0066" y1="4.445" x2="2.921" y2="4.4958" layer="29"/>
 <rectangle x1="1.9558" y1="4.4958" x2="2.667" y2="4.5466" layer="29"/>
 </package>
+<package name="ED3101/3">
+<pad name="1B" x="0" y="0" drill="0.8"/>
+<pad name="1A" x="0" y="5" drill="0.8"/>
+<pad name="2A" x="5" y="5" drill="0.8"/>
+<pad name="2B" x="5" y="0" drill="0.8"/>
+<pad name="3B" x="10" y="0" drill="0.8"/>
+<pad name="3A" x="10" y="5" drill="0.8"/>
+<wire x1="-2" y1="-2" x2="-2" y2="7" width="0.127" layer="21"/>
+<wire x1="-2" y1="7" x2="12" y2="7" width="0.127" layer="21"/>
+<wire x1="12" y1="7" x2="12" y2="-2" width="0.127" layer="21"/>
+<wire x1="12" y1="-2" x2="-2" y2="-2" width="0.127" layer="21"/>
+</package>
+<package name="OSTYK33103030">
+<pad name="3" x="-8.25" y="0" drill="1.4" diameter="2.54"/>
+<pad name="2" x="0" y="0" drill="1.4" diameter="2.54"/>
+<pad name="1" x="8.25" y="0" drill="1.4" diameter="2.54"/>
+<wire x1="-13.4" y1="-4.4" x2="13.4" y2="-4.4" width="0.127" layer="21"/>
+<wire x1="-13.4" y1="-4.4" x2="-13.4" y2="10.6" width="0.127" layer="21"/>
+<wire x1="-13.4" y1="10.6" x2="13.4" y2="10.6" width="0.127" layer="21"/>
+<wire x1="13.4" y1="10.6" x2="13.4" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="13.4" y1="-1.7" x2="13.4" y2="-4.4" width="0.127" layer="21"/>
+<wire x1="-13.3" y1="-1.7" x2="13.4" y2="-1.7" width="0.127" layer="21"/>
+</package>
+<package name="HEADER-2MM-3POS">
+<pad name="P$1" x="0" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="P$2" x="2" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="P$3" x="4" y="0" drill="0.8" diameter="1.4224"/>
+<wire x1="-1" y1="1" x2="5" y2="1" width="0.127" layer="21"/>
+<wire x1="5" y1="1" x2="5" y2="-1" width="0.127" layer="21"/>
+<wire x1="5" y1="-1" x2="-1" y2="-1" width="0.127" layer="21"/>
+<wire x1="-1" y1="-1" x2="-1" y2="1" width="0.127" layer="21"/>
+</package>
+<package name="OSTYK33102030">
+<pad name="2" x="0" y="0" drill="1.4" diameter="2.54"/>
+<pad name="1" x="8.25" y="0" drill="1.4" diameter="2.54"/>
+<wire x1="-5.1" y1="-4.4" x2="13.4" y2="-4.4" width="0.127" layer="21"/>
+<wire x1="-5.1" y1="-4.4" x2="-5.1" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="-5.1" y1="-1.7" x2="-5.1" y2="10.6" width="0.127" layer="21"/>
+<wire x1="-5.1" y1="10.6" x2="13.4" y2="10.6" width="0.127" layer="21"/>
+<wire x1="13.4" y1="10.6" x2="13.4" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="13.4" y1="-1.7" x2="13.4" y2="-4.4" width="0.127" layer="21"/>
+<wire x1="-5.1" y1="-1.7" x2="13.4" y2="-1.7" width="0.127" layer="21"/>
+</package>
+<package name="TETHER-POWER-TERMINALS">
+<pad name="1A" x="0" y="0" drill="1.3" diameter="2.1844"/>
+<pad name="2A" x="5" y="0" drill="1.3" diameter="2.1844"/>
+<wire x1="-2.5" y1="4" x2="7.5" y2="4" width="0.127" layer="21"/>
+<wire x1="7.5" y1="4" x2="7.5" y2="-3.75" width="0.127" layer="21"/>
+<wire x1="7.5" y1="-3.75" x2="7.5" y2="-4.25" width="0.127" layer="21"/>
+<wire x1="7.5" y1="-4.25" x2="-2.5" y2="-4.25" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-4.25" x2="-2.5" y2="-3.75" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-3.75" x2="-2.5" y2="4" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-3.75" x2="7.5" y2="-3.75" width="0.127" layer="21"/>
+<pad name="1B" x="-0.75" y="2.25" drill="2.2" diameter="3.81"/>
+<pad name="2B" x="5.75" y="2.25" drill="2.2" diameter="3.81"/>
+</package>
+<package name="HEADER-2MM-2POS">
+<pad name="P$1" x="0" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="P$2" x="2" y="0" drill="0.8" diameter="1.4224"/>
+<wire x1="-1" y1="1" x2="3" y2="1" width="0.127" layer="21"/>
+<wire x1="3" y1="1" x2="3" y2="-1" width="0.127" layer="21"/>
+<wire x1="3" y1="-1" x2="-1" y2="-1" width="0.127" layer="21"/>
+<wire x1="-1" y1="-1" x2="-1" y2="1" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LETTER_L">
@@ -14942,6 +14879,23 @@ MSOP&lt;br&gt;
 <rectangle x1="6.1849" y1="13.0429" x2="6.8707" y2="13.0683" layer="94"/>
 <text x="-5.4864" y="-4.3942" size="2.54" layer="94" font="vector" ratio="16">BlueRobotics</text>
 </symbol>
+<symbol name="HEADER-3">
+<wire x1="0" y1="0" x2="0" y2="10.16" width="0.254" layer="94"/>
+<wire x1="0" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="1" x="12.7" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="2" x="12.7" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="3" x="12.7" y="2.54" visible="pin" length="middle" rot="R180"/>
+</symbol>
+<symbol name="HEADER-2">
+<wire x1="0" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="0" y2="7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="7.62" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="1" x="12.7" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="2" x="12.7" y="2.54" visible="pin" length="middle" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FRAME-BLUEROBOTICS" prefix="FRAME" uservalue="yes">
@@ -15041,6 +14995,77 @@ LETTER landscape</description>
 </technologies>
 </device>
 <device name="BR-LOGO-MS-COPPER" package="BR-LOGO-MEDIUM-SMALL-COPPER">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HEADER-3">
+<gates>
+<gate name="G$1" symbol="HEADER-3" x="-5.08" y="-5.08"/>
+</gates>
+<devices>
+<device name="ED3101" package="ED3101/3">
+<connects>
+<connect gate="G$1" pin="1" pad="1A 1B"/>
+<connect gate="G$1" pin="2" pad="2A 2B"/>
+<connect gate="G$1" pin="3" pad="3A 3B"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="BARRIER-BLOCK-1" package="OSTYK33103030">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3MM" package="HEADER-2MM-3POS">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HEADER-2">
+<gates>
+<gate name="G$1" symbol="HEADER-2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="BARRIER-BLOCK-1" package="OSTYK33102030">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="POWER" package="TETHER-POWER-TERMINALS">
+<connects>
+<connect gate="G$1" pin="1" pad="1A 1B"/>
+<connect gate="G$1" pin="2" pad="2A 2B"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="2MM" package="HEADER-2MM-2POS">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -15187,7 +15212,6 @@ LETTER landscape</description>
 <part name="STANDOFF6" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
 <part name="STANDOFF7" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
 <part name="STANDOFF8" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
-<part name="SJ2" library="SparkFun-Passives" deviceset="JUMPER-PAD-3-2OF3_NC_BY_PASTE" device="" value=""/>
 <part name="U$4" library="BlueRobotics-Main" deviceset="LOGO" device="FULL-M" value="LOGOFULL-M"/>
 <part name="U$5" library="BlueRobotics-Main" deviceset="LOGO" device="BR-LOGO-MS-COPPER" value="LOGOBR-LOGO-MS-COPPER"/>
 <part name="JP15" library="SparkFun-Connectors" deviceset="M04" device="PTH" value="0.1&quot; HEADER"/>
@@ -15199,7 +15223,6 @@ LETTER landscape</description>
 <part name="U5" library="BR-Eagle-Library" deviceset="78XX" device="" value="MC7805"/>
 <part name="R45" library="SparkFun-Resistors" deviceset="33KOHM1/10W1%(0603)" device="" value="1K"/>
 <part name="D2" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="SOD" value="Schottky"/>
-<part name="SJ1" library="SparkFun-Passives" deviceset="JUMPER-PAD-3-2OF3_NC_BY_PASTE" device="" value=""/>
 <part name="JP10" library="SparkFun-Connectors" deviceset="M02" device="PTH" value="0.1&quot; HEADER"/>
 <part name="FRAME7" library="BlueRobotics-Main" deviceset="FRAME-BLUEROBOTICS" device="" value="Topside Connectors &amp; Misc."/>
 <part name="U$8" library="BR-Eagle-Library" deviceset="TETHER-HEADER" device="SERIAL" value="TETHER-HEADERSERIAL"/>
@@ -15214,7 +15237,6 @@ LETTER landscape</description>
 <part name="U$12" library="BR-Eagle-Library" deviceset="HEADER-2" device=""/>
 <part name="C11" library="SparkFun" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="R17" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="47K"/>
-<part name="SJ4" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_PASTE" device=""/>
 <part name="C6" library="SparkFun-Passives" deviceset="CAP" device="0805" value="10uF X5R 10V"/>
 <part name="C12" library="SparkFun-Passives" deviceset="CAP" device="0805" value="10uF X5R 10V"/>
 <part name="C26" library="SparkFun-Passives" deviceset="CAP" device="0805" value="10uF X5R 10V"/>
@@ -15222,6 +15244,9 @@ LETTER landscape</description>
 <part name="R18" library="SparkFun-Electromechanical" deviceset="TRIMPOT" device="-2" value="TC33X-2-102E"/>
 <part name="F2" library="SparkFun" deviceset="PTC" device="0603" value="500mA"/>
 <part name="F3" library="SparkFun" deviceset="PTC" device="0603" value="500mA"/>
+<part name="U$13" library="BlueRobotics-Main" deviceset="HEADER-3" device="3MM"/>
+<part name="U$14" library="BlueRobotics-Main" deviceset="HEADER-3" device="3MM"/>
+<part name="U$16" library="BlueRobotics-Main" deviceset="HEADER-2" device="2MM"/>
 </parts>
 <sheets>
 <sheet>
@@ -15261,6 +15286,8 @@ so this is intended for camera with wide
 input range such as 9-15V.</text>
 <text x="160.02" y="129.54" size="1.778" layer="97">Ribbon cable provides single-cable 
 connection to ROV controller</text>
+<text x="12.446" y="79.502" size="1.778" layer="97">Jumper</text>
+<text x="12.446" y="125.222" size="1.778" layer="97">Jumper</text>
 </plain>
 <instances>
 <instance part="JP2" gate="G$1" x="50.8" y="162.56" rot="R180"/>
@@ -15273,13 +15300,13 @@ connection to ROV controller</text>
 <instance part="STANDOFF2" gate="G$1" x="243.84" y="160.02"/>
 <instance part="STANDOFF3" gate="G$1" x="243.84" y="154.94"/>
 <instance part="STANDOFF4" gate="G$1" x="238.76" y="154.94"/>
-<instance part="SJ2" gate="G$1" x="20.32" y="73.66" rot="R180"/>
 <instance part="U$4" gate="G$1" x="226.06" y="170.18"/>
-<instance part="SJ1" gate="G$1" x="20.32" y="119.38" rot="R180"/>
 <instance part="JP10" gate="G$1" x="45.72" y="104.14" rot="R180"/>
 <instance part="U$8" gate="G$1" x="137.16" y="109.22"/>
 <instance part="U$10" gate="G$1" x="149.86" y="172.72" rot="R180"/>
 <instance part="U$11" gate="G$1" x="149.86" y="157.48" rot="R180"/>
+<instance part="U$13" gate="G$1" x="12.7" y="68.58"/>
+<instance part="U$14" gate="G$1" x="12.7" y="114.3"/>
 </instances>
 <busses>
 </busses>
@@ -15373,10 +15400,7 @@ connection to ROV controller</text>
 <segment>
 <wire x1="25.4" y1="76.2" x2="48.26" y2="76.2" width="0.1524" layer="91"/>
 <label x="33.02" y="76.2" size="1.778" layer="95"/>
-<wire x1="25.4" y1="76.2" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="81.28" x2="20.32" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="81.28" x2="20.32" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="SJ2" gate="G$1" pin="3"/>
+<pinref part="U$13" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="12V-ISO" class="0">
@@ -15416,10 +15440,7 @@ connection to ROV controller</text>
 <segment>
 <wire x1="25.4" y1="71.12" x2="48.26" y2="71.12" width="0.1524" layer="91"/>
 <label x="33.02" y="71.12" size="1.778" layer="95"/>
-<wire x1="25.4" y1="71.12" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="66.04" x2="20.32" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="66.04" x2="20.32" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="SJ2" gate="G$1" pin="1"/>
+<pinref part="U$13" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <wire x1="137.16" y1="170.18" x2="106.68" y2="170.18" width="0.1524" layer="91"/>
@@ -15431,7 +15452,7 @@ connection to ROV controller</text>
 <segment>
 <wire x1="25.4" y1="73.66" x2="48.26" y2="73.66" width="0.1524" layer="91"/>
 <label x="33.02" y="73.66" size="1.778" layer="95"/>
-<pinref part="SJ2" gate="G$1" pin="2"/>
+<pinref part="U$13" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="I_SENSE" class="0">
@@ -15452,7 +15473,7 @@ connection to ROV controller</text>
 <segment>
 <wire x1="25.4" y1="119.38" x2="45.72" y2="119.38" width="0.1524" layer="91"/>
 <label x="30.48" y="119.38" size="1.778" layer="95"/>
-<pinref part="SJ1" gate="G$1" pin="2"/>
+<pinref part="U$14" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U$8" gate="G$1" pin="VBAT"/>
@@ -15464,10 +15485,7 @@ connection to ROV controller</text>
 <segment>
 <wire x1="25.4" y1="116.84" x2="45.72" y2="116.84" width="0.1524" layer="91"/>
 <label x="30.48" y="116.84" size="1.778" layer="95"/>
-<wire x1="25.4" y1="116.84" x2="25.4" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="111.76" x2="20.32" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="111.76" x2="20.32" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="SJ1" gate="G$1" pin="1"/>
+<pinref part="U$14" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <pinref part="JP10" gate="G$1" pin="1"/>
@@ -15496,10 +15514,7 @@ connection to ROV controller</text>
 <segment>
 <wire x1="25.4" y1="121.92" x2="45.72" y2="121.92" width="0.1524" layer="91"/>
 <label x="30.48" y="121.92" size="1.778" layer="95"/>
-<wire x1="25.4" y1="121.92" x2="25.4" y2="127" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="127" x2="20.32" y2="127" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="127" x2="20.32" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="SJ1" gate="G$1" pin="3"/>
+<pinref part="U$14" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="137.16" y1="152.4" x2="106.68" y2="152.4" width="0.1524" layer="91"/>
@@ -16705,6 +16720,7 @@ Parallel resistor: 86.6 ohm, 1/2 W</text>
 reset circuitry to allow
 programming of Arduino
 boards.</text>
+<text x="200.406" y="155.956" size="1.778" layer="97">Jumper</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0"/>
@@ -16749,7 +16765,7 @@ boards.</text>
 <instance part="R16" gate="G$1" x="116.84" y="15.24" rot="R90"/>
 <instance part="C11" gate="G$1" x="218.44" y="142.24" rot="R90"/>
 <instance part="R17" gate="G$1" x="226.06" y="149.86" rot="R90"/>
-<instance part="SJ4" gate="G$1" x="205.74" y="142.24"/>
+<instance part="U$16" gate="G$1" x="200.66" y="154.94" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -17062,16 +17078,16 @@ boards.</text>
 <net name="RTS" class="0">
 <segment>
 <pinref part="IC5" gate="G$1" pin="!RTS"/>
-<wire x1="170.18" y1="142.24" x2="200.66" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="142.24" x2="203.2" y2="142.24" width="0.1524" layer="91"/>
 <label x="195.58" y="142.24" size="1.778" layer="95"/>
-<pinref part="SJ4" gate="G$1" pin="1"/>
+<pinref part="U$16" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="C11" gate="G$1" pin="1"/>
-<wire x1="210.82" y1="142.24" x2="213.36" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="SJ4" gate="G$1" pin="2"/>
+<pinref part="U$16" gate="G$1" pin="1"/>
+<wire x1="205.74" y1="142.24" x2="213.36" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ROV-ON-CTRL" class="0">
