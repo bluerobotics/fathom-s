@@ -1,16 +1,16 @@
-#Fathom
+#Fathom-S
 
 The Fathom Tether Boards are part of Blue Robotics' *Fathom Tether*. These boards provide interfaces and functionality for the communication methods used with the tether. With the Fathom tether, it is quick and easy to get up and running and interface with your ROV or other application.
 
 The schematic and board layout are designed in EagleCAD.
 
-#Fathom Serial Hardware
+#Fathom-S (Serial) Hardware
 
 ##Description
 
-The Fathom Serial Hardware is designed for applications using a simple microcontroller for ROV control. It is meant to be an all-inclusive tether interface. The power switching capability allows small ROVs to be completely powered through the switched battery power connection with 20A continuous and 40A burst current ratings. Larger systems with higher current or voltage requirements must use an external power switching circuit or rely on plug/unplug power systems.
+The Fathom-S Hardware is designed for applications using a simple microcontroller for ROV control. It is meant to be an all-inclusive tether interface. The power switching capability allows small ROVs to be completely powered through the switched battery power connection with 20A continuous and 40A burst current ratings. Larger systems with higher current or voltage requirements must use an external power switching circuit or rely on plug/unplug power systems.
 
-The Fathom Serial Hardware is designed to be used with tether cables that have four twisted pairs, preferrably similar to Cat5 cable. The design is based on the tether cables available from Blue Robotics, but will also work with standard Cat5 network cable.
+The Fathom-S Hardware is designed to be used with tether cables that have four twisted pairs, preferrably similar to Cat5 cable. The design is based on the tether cables available from Blue Robotics, but will also work with standard Cat5 network cable.
 
 ##Features 
 
@@ -27,11 +27,11 @@ The Fathom Serial Hardware is designed to be used with tether cables that have f
 
 ##Configuration
 
-###Fathom Serial Onboard
+###Fathom-S Onboard
 
 [Image with arrows]
 
-###Fathom Serial Topside
+###Fathom-S Topside
 
 [Image with arrows]
 
@@ -73,4 +73,4 @@ The Fathom Serial Hardware Design is released under the MIT License.
 
 0.1 - Second prototype. Not fully functional.
 
-0.2 - Third prototype. Untested.
+0.2 - Third prototype. First beta release - works great.
