@@ -2358,7 +2358,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="PROD_ID" value="DIO-11284" x="60.6275" y="13.985" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="3.3V" x="60.6275" y="13.985" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C13" library="SparkFun-Passives" package="EIA6032" value="10uF 25V" x="44.97375" y="30.9725" rot="R90"/>
+<element name="C13" library="SparkFun-Passives" package="EIA6032" value="33uF 20V" x="44.97375" y="30.9725" rot="R90"/>
 <element name="JP3" library="SparkFun-Connectors" package="1X03" value="0.1&quot; HEADER" x="12.85875" y="40.83" smashed="yes" rot="R180"/>
 <element name="U$6" library="SparkFun-DiscreteSemi" package="SO08" value=" AO4407A " x="56.35625" y="19.52625"/>
 <element name="R38" library="SparkFun-Resistors" package="0603-RES" value="330" x="16.3195" y="25.2857" rot="R180"/>
