@@ -8809,6 +8809,15 @@ MSOP&lt;br&gt;
 <rectangle x1="-0.15" y1="-1.1" x2="0.15" y2="-0.6" layer="51"/>
 <rectangle x1="0.5" y1="-1.1" x2="0.8" y2="-0.6" layer="51"/>
 </package>
+<package name="B1,27">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
+<wire x1="-0.635" y1="0" x2="0.635" y2="0" width="0.0024" layer="37"/>
+<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.0024" layer="37"/>
+<smd name="TP" x="0" y="0" dx="1.27" dy="1.27" layer="1" roundness="100" cream="no"/>
+<text x="-0.635" y="0.85790625" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-0.635" y="-0.762" size="0.0254" layer="27">&gt;VALUE</text>
+<text x="-0.635" y="-1.491328125" size="0.508" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="LETTER_L">
@@ -10889,6 +10898,15 @@ MSOP&lt;br&gt;
 <wire x1="0" y1="7.62" x2="0" y2="-2.54" width="0.254" layer="94"/>
 <text x="0.254" y="8.128" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
+<symbol name="TP">
+<wire x1="-0.762" y1="-0.762" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-0.762" x2="0" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.524" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
+<text x="-1.27" y="1.27" size="1.778" layer="95">&gt;NAME</text>
+<text x="1.27" y="-1.27" size="1.778" layer="97">&gt;VALUE</text>
+<pin name="TP" x="0" y="-2.54" visible="off" length="short" direction="in" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FRAME-BLUEROBOTICS" prefix="FRAME" uservalue="yes">
@@ -11094,6 +11112,21 @@ LETTER landscape</description>
 <connect gate="G$1" pin="GND" pad="2"/>
 <connect gate="G$1" pin="VIN" pad="1"/>
 <connect gate="G$1" pin="VOUT" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TEST-POINT" prefix="TP" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="TP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="B1,27">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11513,6 +11546,12 @@ Source: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e53600014.pdf"&gt;http:/
 <part name="Q3" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="BSS138" value="BSS138"/>
 <part name="R19" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10K"/>
 <part name="R20" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10K"/>
+<part name="TP1" library="BlueRobotics-Main" deviceset="TEST-POINT" device="" value="-5V"/>
+<part name="TP2" library="BlueRobotics-Main" deviceset="TEST-POINT" device="" value="12V"/>
+<part name="TP3" library="BlueRobotics-Main" deviceset="TEST-POINT" device="" value="5V"/>
+<part name="TP4" library="BlueRobotics-Main" deviceset="TEST-POINT" device="" value="VIN"/>
+<part name="TP5" library="BlueRobotics-Main" deviceset="TEST-POINT" device="" value="5V"/>
+<part name="TP6" library="BlueRobotics-Main" deviceset="TEST-POINT" device="" value="-5V"/>
 </parts>
 <sheets>
 <sheet>
@@ -11545,6 +11584,7 @@ Serial Port</text>
 to switch on separate
 power board)</text>
 <text x="17.78" y="106.68" size="2.54" layer="97">Switched Power Access</text>
+<text x="17.78" y="76.2" size="2.54" layer="97">Test Points</text>
 </plain>
 <instances>
 <instance part="JP2" gate="G$1" x="50.8" y="162.56" rot="R180"/>
@@ -11562,6 +11602,10 @@ power board)</text>
 <instance part="U$11" gate="G$1" x="144.78" y="96.52" rot="MR180"/>
 <instance part="JP1" gate="G$1" x="144.78" y="139.7" rot="R180"/>
 <instance part="JP5" gate="G$1" x="17.78" y="93.98"/>
+<instance part="TP1" gate="G$1" x="17.78" y="68.58"/>
+<instance part="TP2" gate="G$1" x="17.78" y="58.42"/>
+<instance part="TP3" gate="G$1" x="17.78" y="48.26"/>
+<instance part="TP4" gate="G$1" x="17.78" y="38.1"/>
 </instances>
 <busses>
 </busses>
@@ -11663,6 +11707,12 @@ power board)</text>
 <wire x1="116.84" y1="58.42" x2="149.86" y2="58.42" width="0.1524" layer="91"/>
 <label x="134.62" y="58.42" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="17.78" y1="55.88" x2="17.78" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="53.34" x2="50.8" y2="53.34" width="0.1524" layer="91"/>
+<label x="38.1" y="53.34" size="1.778" layer="95"/>
+<pinref part="TP2" gate="G$1" pin="TP"/>
+</segment>
 </net>
 <net name="VCC-ISO" class="0">
 <segment>
@@ -11679,6 +11729,12 @@ power board)</text>
 <pinref part="U$3" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="119.38" x2="106.68" y2="119.38" width="0.1524" layer="91"/>
 <label x="106.68" y="119.38" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="17.78" y1="45.72" x2="17.78" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="43.18" x2="50.8" y2="43.18" width="0.1524" layer="91"/>
+<label x="38.1" y="43.18" size="1.778" layer="95"/>
+<pinref part="TP3" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="ROV-BATT" class="0">
@@ -11747,6 +11803,20 @@ power board)</text>
 <wire x1="25.4" y1="96.52" x2="50.8" y2="96.52" width="0.1524" layer="91"/>
 <label x="40.64" y="96.52" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="17.78" y1="35.56" x2="17.78" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="33.02" x2="50.8" y2="33.02" width="0.1524" layer="91"/>
+<label x="38.1" y="33.02" size="1.778" layer="95"/>
+<pinref part="TP4" gate="G$1" pin="TP"/>
+</segment>
+</net>
+<net name="-VCC-ISO" class="0">
+<segment>
+<wire x1="17.78" y1="66.04" x2="17.78" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="63.5" x2="50.8" y2="63.5" width="0.1524" layer="91"/>
+<label x="38.1" y="63.5" size="1.778" layer="95"/>
+<pinref part="TP1" gate="G$1" pin="TP"/>
+</segment>
 </net>
 </nets>
 </sheet>
@@ -11759,6 +11829,7 @@ power board)</text>
 <text x="129.54" y="160.02" size="1.778" layer="97">Alternate topside power input 
 (if not using USB)
 (+7-30V)</text>
+<text x="10.16" y="71.12" size="2.54" layer="97">Test Points</text>
 </plain>
 <instances>
 <instance part="FRAME7" gate="G$1" x="0" y="0"/>
@@ -11773,6 +11844,8 @@ power board)</text>
 <instance part="U$5" gate="G$1" x="223.52" y="167.64"/>
 <instance part="JP15" gate="G$1" x="45.72" y="127" rot="R180"/>
 <instance part="U$12" gate="G$1" x="116.84" y="165.1" rot="R180"/>
+<instance part="TP5" gate="G$1" x="12.7" y="63.5"/>
+<instance part="TP6" gate="G$1" x="12.7" y="53.34"/>
 </instances>
 <busses>
 </busses>
@@ -11855,6 +11928,12 @@ power board)</text>
 <wire x1="40.64" y1="124.46" x2="10.16" y2="124.46" width="0.1524" layer="91"/>
 <label x="10.16" y="124.46" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="12.7" y1="60.96" x2="12.7" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="58.42" x2="45.72" y2="58.42" width="0.1524" layer="91"/>
+<label x="33.02" y="58.42" size="1.778" layer="95"/>
+<pinref part="TP5" gate="G$1" pin="TP"/>
+</segment>
 </net>
 <net name="TOP-VIN" class="0">
 <segment>
@@ -11882,6 +11961,14 @@ power board)</text>
 <pinref part="JP7" gate="G$1" pin="7"/>
 <wire x1="40.64" y1="152.4" x2="10.16" y2="152.4" width="0.1524" layer="91"/>
 <label x="10.16" y="152.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="-VCC" class="0">
+<segment>
+<wire x1="12.7" y1="50.8" x2="12.7" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="48.26" x2="45.72" y2="48.26" width="0.1524" layer="91"/>
+<label x="33.02" y="48.26" size="1.778" layer="95"/>
+<pinref part="TP6" gate="G$1" pin="TP"/>
 </segment>
 </net>
 </nets>
@@ -12313,8 +12400,6 @@ power board)</text>
 <text x="55.88" y="162.56" size="2.54" layer="97">Power-on Switch</text>
 <text x="53.34" y="104.14" size="1.778" layer="97">ROV-ON between
 3.3V-50V</text>
-<text x="208.28" y="40.64" size="1.778" layer="97">Min Battery Voltage: 9V
-Max Battery Voltage: 26V</text>
 <text x="96.52" y="130.556" size="1.778" layer="97" rot="R90">16V</text>
 </plain>
 <instances>
@@ -12426,7 +12511,7 @@ Max Battery Voltage: 26V</text>
 <pinref part="U$6" gate="G$1" pin="D@4"/>
 <wire x1="144.78" y1="132.08" x2="149.86" y2="132.08" width="0.1524" layer="91"/>
 <junction x="149.86" y="132.08"/>
-<wire x1="149.86" y1="132.08" x2="180.34" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="132.08" x2="165.1" y2="132.08" width="0.1524" layer="91"/>
 <label x="154.94" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
