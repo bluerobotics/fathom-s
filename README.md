@@ -35,12 +35,6 @@ The Fathom-S Hardware is designed to be used with tether cables that have four t
 | 12V Regulator Current @ 12V input  |         |         | 1000    | mA      |
 | 12V Regulator Current @ 26V input  |         |         | 150     | mA      |
 
-##APM/PixHawk Adapter Board
-
-The APM/PixHawk Adapter Board allows the Fathom-S board to be interfaced directly to a PixHawk or any other DroneCode compatible autopilot. The following connectors are available:
-
-* Telemetry serial port to the tether RS422 serial port (via 0.1" header, DF13, or JST-GH)
-
 ##License
 
 The Fathom Serial Hardware Design is released under the MIT License.

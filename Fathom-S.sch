@@ -8818,6 +8818,20 @@ MSOP&lt;br&gt;
 <text x="-0.635" y="-0.762" size="0.0254" layer="27">&gt;VALUE</text>
 <text x="-0.635" y="-1.491328125" size="0.508" layer="27">&gt;VALUE</text>
 </package>
+<package name="C2413">
+<smd name="+" x="0" y="0" dx="2.35" dy="2.77" layer="1" rot="R90"/>
+<smd name="-" x="5.14" y="0" dx="2.35" dy="2.77" layer="1" rot="R90"/>
+<wire x1="3.75" y1="2.25" x2="6.75" y2="2.25" width="0.2" layer="21"/>
+<wire x1="6.75" y1="2.25" x2="6.75" y2="1.5" width="0.2" layer="21"/>
+<wire x1="3.75" y1="-2.25" x2="6.75" y2="-2.25" width="0.2" layer="21"/>
+<wire x1="6.75" y1="-2.25" x2="6.75" y2="-1.5" width="0.2" layer="21"/>
+<wire x1="1.5" y1="2.25" x2="-1" y2="2.25" width="0.2" layer="21"/>
+<wire x1="-1" y1="2.25" x2="-1.75" y2="1.5" width="0.2" layer="21"/>
+<wire x1="1.5" y1="-2.25" x2="-1" y2="-2.25" width="0.2" layer="21"/>
+<wire x1="-1" y1="-2.25" x2="-1.75" y2="-1.5" width="0.2" layer="21"/>
+<wire x1="2" y1="1.75" x2="2" y2="-1.75" width="0.2" layer="21"/>
+<wire x1="-1.75" y1="1.5" x2="-1.75" y2="-1.5" width="0.2" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LETTER_L">
@@ -10907,6 +10921,18 @@ MSOP&lt;br&gt;
 <text x="1.27" y="-1.27" size="1.778" layer="97">&gt;VALUE</text>
 <pin name="TP" x="0" y="-2.54" visible="off" length="short" direction="in" rot="R90"/>
 </symbol>
+<symbol name="CPOL-US">
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.016" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1" x2="2.4892" y2="-1.8542" width="0.254" layer="94" curve="-37.878202" cap="flat"/>
+<wire x1="-2.4669" y1="-1.8504" x2="0" y2="-1.0161" width="0.254" layer="94" curve="-37.376341" cap="flat"/>
+<text x="1.016" y="0.635" size="1.4224" layer="95">&gt;NAME</text>
+<text x="1.016" y="-4.191" size="1.4224" layer="96">&gt;VALUE</text>
+<rectangle x1="-2.253" y1="0.668" x2="-1.364" y2="0.795" layer="94"/>
+<rectangle x1="-1.872" y1="0.287" x2="-1.745" y2="1.176" layer="94"/>
+<pin name="+" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FRAME-BLUEROBOTICS" prefix="FRAME" uservalue="yes">
@@ -11127,6 +11153,22 @@ LETTER landscape</description>
 <device name="" package="B1,27">
 <connects>
 <connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CAPACITOR-POLAR" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="CPOL-US" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="2413" package="C2413">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11482,7 +11524,7 @@ Source: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e53600014.pdf"&gt;http:/
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
 <part name="R25" library="SparkFun-Resistors" deviceset="33KOHM1/10W1%(0603)" device="" value="10K"/>
 <part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="3.3V" value="16V"/>
-<part name="C13" library="SparkFun-Passives" deviceset="CAP_POL" device="6032" value="33uF 20V"/>
+<part name="C13" library="BlueRobotics-Main" deviceset="CAPACITOR-POLAR" device="2413" value="33uF 20V"/>
 <part name="FRAME1" library="BlueRobotics-Main" deviceset="FRAME-BLUEROBOTICS" device="" value="Onboard Connectors &amp; Misc."/>
 <part name="FRAME2" library="BlueRobotics-Main" deviceset="FRAME-BLUEROBOTICS" device="" value="Video Amplifiers"/>
 <part name="FRAME3" library="BlueRobotics-Main" deviceset="FRAME-BLUEROBOTICS" device="" value="Power"/>
@@ -11567,10 +11609,10 @@ turn on as soon as batteries
 are plugged in.</text>
 <text x="17.78" y="137.16" size="2.54" layer="97">Override ROV-on</text>
 <text x="154.94" y="167.64" size="1.778" layer="97">Battery Input
-(+9-26V)</text>
+(+7-20V)</text>
 <text x="160.02" y="134.62" size="1.778" layer="97">5V output for µC, sensors, etc.
 (250mA w/ 12Vin)
-(100mA w/ 24Vin)</text>
+(100mA w/ 20Vin)</text>
 <text x="160.02" y="55.88" size="1.778" layer="97">12V output is not guaranteed, 
 so this is intended for camera with wide 
 input range such as 9-15V.</text>
@@ -11828,7 +11870,7 @@ power board)</text>
 <text x="10.16" y="137.16" size="2.54" layer="97">Serial TTL</text>
 <text x="129.54" y="160.02" size="1.778" layer="97">Alternate topside power input 
 (if not using USB)
-(+7-30V)</text>
+(+7-20V)</text>
 <text x="10.16" y="71.12" size="2.54" layer="97">Test Points</text>
 </plain>
 <instances>
